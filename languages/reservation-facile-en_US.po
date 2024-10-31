@@ -1,0 +1,2587 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Réservation Facile\n"
+"POT-Creation-Date: 2018-10-29 16:43+0100\n"
+"PO-Revision-Date: 2018-10-29 16:43+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: rf.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: rf-admin-booking-crud.php:50
+msgid "Please select the place"
+msgstr "Please select the place"
+
+#: rf-admin-booking-crud.php:98
+msgid "The booking has been added"
+msgstr "The booking has been added"
+
+#: rf-admin-booking-crud.php:110
+msgid "The booking has been updated"
+msgstr "The booking has been updated"
+
+#: rf-admin-booking-crud.php:131
+msgid "added"
+msgstr "added"
+
+#: rf-admin-booking-crud.php:149
+msgid "The booking has been removed"
+msgstr "The booking has been removed"
+
+#: rf-admin-booking-crud.php:239 rf-functions-booking-preview-save.php:35
+msgid "Booking"
+msgstr "Booking"
+
+#: rf-admin-booking-crud.php:250 rf-admin-shortcodes.php:113
+#: rf-admin-shortcodes.php:207 rf-admin-ui.php:167
+#: rf-functions-booking-preview-save.php:63
+#: rf-functions-booking-preview-save.php:70 rf-functions.php:752
+#: rf-wpajax.php:762
+msgid "Place"
+msgstr "Place"
+
+#: rf-admin-booking-crud.php:251 rf-admin-bookings-general.php:117
+msgid "Price"
+msgstr "Price"
+
+#: rf-admin-booking-crud.php:252 rf-admin-bookings-general.php:37
+#: rf-functions.php:735 rf-functions.php:782
+msgid "Currency"
+msgstr "Currency"
+
+#: rf-admin-booking-crud.php:253 rf-admin-bookings-general.php:21
+#: rf-functions.php:757 rf-functions.php:783
+msgid "Time unit (in hours)"
+msgstr "Time unit (in hours)"
+
+#: rf-admin-booking-crud.php:254 rf-admin-bookings-general.php:39
+#: rf-functions.php:736 rf-functions.php:786 rf-shortcode.php:157
+msgid "Deposit requested (amount)"
+msgstr "Deposit requested (amount)"
+
+#: rf-admin-booking-crud.php:255 rf-admin-bookings-general.php:41
+#: rf-functions.php:737 rf-functions.php:787 rf-shortcode.php:161
+msgid "Deposit requested (percentage)"
+msgstr "Deposit requested (percentage)"
+
+#: rf-admin-booking-crud.php:257 rf-admin-bookings-display.php:76
+#: rf-admin-bookings-general.php:19 rf-functions-booking-preview-save.php:77
+#: rf-functions.php:733 rf-functions.php:780 rf-shortcode.php:308
+msgid "Number of places"
+msgstr "Number of places"
+
+#: rf-admin-booking-crud.php:258 rf-functions.php:738 rf-shortcode.php:311
+msgid "Arrival date"
+msgstr "Arrival date"
+
+#: rf-admin-booking-crud.php:259 rf-shortcode.php:314
+msgid "Arrival time"
+msgstr "Arrival time"
+
+#: rf-admin-booking-crud.php:260 rf-functions.php:739 rf-shortcode.php:330
+msgid "Departure date"
+msgstr "Departure date"
+
+#: rf-admin-booking-crud.php:261 rf-shortcode.php:333
+msgid "Departure time"
+msgstr "Departure time"
+
+#: rf-admin-booking-crud.php:262 rf-admin-bookings-display.php:101
+#: rf-functions.php:740 rf-shortcode.php:340
+msgid "Number of people"
+msgstr "Number of people"
+
+#: rf-admin-booking-crud.php:264 rf-admin-bookings-display.php:106
+#: rf-functions.php:741 rf-shortcode.php:341
+msgid "Last name"
+msgstr "Last name"
+
+#: rf-admin-booking-crud.php:265 rf-admin-bookings-display.php:111
+#: rf-functions.php:742 rf-shortcode.php:342
+msgid "First name"
+msgstr "First name"
+
+#: rf-admin-booking-crud.php:266 rf-admin-bookings-display.php:116
+#: rf-functions.php:743 rf-shortcode.php:343
+msgid "Address"
+msgstr "Address"
+
+#: rf-admin-booking-crud.php:267 rf-admin-bookings-display.php:121
+#: rf-functions.php:744 rf-shortcode.php:344
+msgid "Zip code"
+msgstr "Zip code"
+
+#: rf-admin-booking-crud.php:268 rf-admin-bookings-display.php:126
+#: rf-functions.php:745 rf-shortcode.php:345
+msgid "City"
+msgstr "City"
+
+#: rf-admin-booking-crud.php:269 rf-admin-bookings-display.php:131
+#: rf-functions.php:746 rf-shortcode.php:346
+msgid "Country"
+msgstr "Country"
+
+#: rf-admin-booking-crud.php:270 rf-admin-bookings-display.php:136
+#: rf-functions-booking-preview-save.php:56 rf-functions.php:747
+#: rf-shortcode.php:347
+msgid "Email"
+msgstr "Email"
+
+#: rf-admin-booking-crud.php:270
+msgid "Send an email"
+msgstr "Send an email"
+
+#: rf-admin-booking-crud.php:271 rf-functions-booking-preview-save.php:55
+#: rf-functions.php:748 rf-shortcode.php:348
+msgid "Tel."
+msgstr "Tel."
+
+#: rf-admin-booking-crud.php:273 rf-functions.php:749 rf-wpajax.php:760
+msgid "Status"
+msgstr "Status"
+
+#: rf-admin-booking-crud.php:281 rf-functions.php:731
+msgid "Internal reference"
+msgstr "Internal reference"
+
+#: rf-admin-booking-crud.php:282
+msgid "Registration date"
+msgstr "Registration date"
+
+#: rf-admin-booking-crud.php:283
+msgid "Registration time"
+msgstr "Registration time"
+
+#: rf-admin-booking-crud.php:284 rf-functions.php:753 rf-shortcode.php:349
+msgid "Comments"
+msgstr "Comments"
+
+#: rf-admin-booking-crud.php:288 rf-functions-booking-preview-save.php:221
+#: rf-functions-booking-preview-save.php:302
+#: rf-functions-booking-preview-save.php:372
+msgid "Total"
+msgstr "Total"
+
+#: rf-admin-booking-crud.php:289
+msgid "Initial price"
+msgstr "Initial price"
+
+#: rf-admin-booking-crud.php:291
+msgid "Price with options"
+msgstr "Price with options"
+
+#: rf-admin-booking-crud.php:293
+msgid "Price with taxes"
+msgstr "Price with taxes"
+
+#: rf-admin-booking-crud.php:295
+msgid "Price with deductions"
+msgstr "Price with deductions"
+
+#: rf-admin-booking-crud.php:297 rf-functions-booking-preview-save.php:425
+msgid "Total to pay"
+msgstr "Total to pay"
+
+#: rf-admin-booking-crud.php:301 rf-admin-parameters.php:74
+#: rf-admin-pricechanges.php:86 rf-admin-pricechanges.php:119
+#: rf-admin-pricechanges.php:153 rf-admin-pricechanges.php:187
+#: rf-admin-shortcodes.php:164
+msgid "Save"
+msgstr "Save"
+
+#: rf-admin-booking-crud.php:303
+msgid "Are you sure you want to delete this booking?"
+msgstr "Are you sure you want to delete this booking?"
+
+#: rf-admin-booking-crud.php:310 rf-admin-bookings-general.php:121
+#: rf-admin-bookings-general.php:205 rf-admin-pricechanges.php:87
+#: rf-admin-pricechanges.php:120 rf-admin-pricechanges.php:154
+#: rf-admin-pricechanges.php:188 rf-admin-shortcodes.php:176 rf-admin-ui.php:45
+msgid "Delete"
+msgstr "Delete"
+
+#: rf-admin-bookings-calendar.php:33
+msgid "Arrivals of the week"
+msgstr "Arrivals of the week"
+
+#: rf-admin-bookings-coupons.php:4
+msgid "Coupons associated with the place"
+msgstr "Coupons associated with the place"
+
+#: rf-admin-bookings-coupons.php:14 rf-admin-bookings-coupons.php:35
+#: rf-admin-bookings-discounts.php:13 rf-admin-bookings-discounts.php:33
+#: rf-admin-bookings-options.php:15 rf-admin-bookings-options.php:56
+#: rf-admin-bookings-taxes.php:13 rf-admin-bookings-taxes.php:34
+#: rf-admin-ui.php:51 rf-shortcode.php:147
+msgid "Available on"
+msgstr "Available on"
+
+#: rf-admin-bookings-coupons.php:15 rf-admin-bookings-coupons.php:36
+#: rf-admin-bookings-discounts.php:14 rf-admin-bookings-discounts.php:34
+#: rf-admin-bookings-options.php:16 rf-admin-bookings-options.php:57
+#: rf-admin-bookings-taxes.php:14 rf-admin-bookings-taxes.php:35
+#: rf-admin-ui.php:52 rf-shortcode.php:150
+msgid "Until"
+msgstr "Until"
+
+#: rf-admin-bookings-coupons.php:16 rf-admin-bookings-coupons.php:37
+#: rf-admin-bookings-discounts.php:15 rf-admin-bookings-discounts.php:35
+#: rf-admin-bookings-taxes.php:15 rf-admin-bookings-taxes.php:36
+#: rf-admin-ui.php:53
+msgid "Remaining quantity"
+msgstr "Remaining quantity"
+
+#: rf-admin-bookings-coupons.php:17 rf-admin-bookings-coupons.php:38
+#: rf-admin-bookings-coupons.php:55 rf-admin-pricechanges.php:148
+msgid "Amount of the coupon."
+msgstr "Amount of the coupon."
+
+#: rf-admin-bookings-coupons.php:18 rf-admin-bookings-coupons.php:39
+#: rf-admin-bookings-coupons.php:56 rf-admin-pricechanges.php:149
+msgid "Percentage of the coupon."
+msgstr "Percentage of the coupon."
+
+#: rf-admin-bookings-coupons.php:19 rf-admin-bookings-coupons.php:40
+#: rf-admin-bookings-discounts.php:18 rf-admin-bookings-discounts.php:38
+#: rf-admin-bookings-options.php:31 rf-admin-bookings-options.php:72
+#: rf-admin-bookings-taxes.php:18 rf-admin-bookings-taxes.php:39
+#: rf-admin-ui.php:57 rf-functions-booking.php:257 rf-functions-booking.php:296
+#: rf-functions.php:925
+msgid "Periodicity"
+msgstr "Periodicity"
+
+#: rf-admin-bookings-coupons.php:20 rf-admin-bookings-coupons.php:41
+#: rf-admin-bookings-coupons.php:58 rf-admin-bookings-discounts.php:19
+#: rf-admin-bookings-discounts.php:39 rf-admin-bookings-discounts.php:55
+#: rf-admin-bookings-taxes.php:19 rf-admin-bookings-taxes.php:40
+#: rf-admin-bookings-taxes.php:56 rf-admin-pricechanges.php:151
+#: rf-admin-pricechanges.php:185 rf-admin-ui.php:58
+#: rf-functions-booking-preview-save.php:284
+#: rf-functions-booking-preview-save.php:356 rf-functions-booking.php:270
+#: rf-functions-booking.php:309 rf-wpajax.php:468 rf-wpajax.php:472
+msgid "Code"
+msgstr "Code"
+
+#: rf-admin-bookings-coupons.php:21 rf-admin-bookings-coupons.php:42
+#: rf-admin-bookings-coupons.php:59 rf-admin-bookings-discounts.php:20
+#: rf-admin-bookings-discounts.php:40 rf-admin-bookings-discounts.php:56
+#: rf-admin-bookings-display.php:55 rf-admin-bookings-general.php:29
+#: rf-admin-bookings-options.php:43 rf-admin-bookings-options.php:83
+#: rf-admin-bookings-options.php:109 rf-admin-bookings-taxes.php:20
+#: rf-admin-bookings-taxes.php:41 rf-admin-bookings-taxes.php:57
+#: rf-admin-pricechanges.php:85 rf-admin-pricechanges.php:118
+#: rf-admin-pricechanges.php:152 rf-admin-pricechanges.php:186
+#: rf-admin-ui.php:59 rf-functions-booking-preview-save.php:118
+#: rf-functions-booking-preview-save.php:208
+#: rf-functions-booking-preview-save.php:287
+#: rf-functions-booking-preview-save.php:358 rf-functions-booking.php:273
+#: rf-functions-booking.php:313 rf-functions.php:791
+msgid "Description / Details"
+msgstr "Description / Details"
+
+#: rf-admin-bookings-coupons.php:25
+msgid "List of all coupons"
+msgstr "List of all coupons"
+
+#: rf-admin-bookings-coupons.php:47
+msgid "New Coupon"
+msgstr "New Coupon"
+
+#: rf-admin-bookings-coupons.php:51 rf-admin-bookings-discounts.php:48
+#: rf-admin-bookings-general.php:17 rf-admin-bookings-options.php:91
+#: rf-admin-bookings-taxes.php:49 rf-admin-pricechanges.php:62
+#: rf-admin-pricechanges.php:111 rf-admin-pricechanges.php:144
+#: rf-admin-pricechanges.php:178 rf-functions-booking.php:253
+#: rf-functions-booking.php:281 rf-functions.php:917
+msgid "Label"
+msgstr "Label"
+
+#: rf-admin-bookings-coupons.php:51 rf-admin-pricechanges.php:144
+msgid "The name of the coupon."
+msgstr "The name of the coupon."
+
+#: rf-admin-bookings-coupons.php:52 rf-admin-bookings-discounts.php:49
+#: rf-admin-bookings-general.php:91 rf-admin-bookings-general.php:180
+#: rf-admin-bookings-options.php:92 rf-admin-bookings-taxes.php:50
+#: rf-admin-pricechanges.php:63 rf-admin-pricechanges.php:112
+#: rf-admin-pricechanges.php:145 rf-admin-pricechanges.php:179
+#: rf-functions.php:919
+msgid "Start date"
+msgstr "Start date"
+
+#: rf-admin-bookings-coupons.php:52 rf-admin-pricechanges.php:145
+msgid "Availability date of the coupon."
+msgstr "Availability date of the coupon."
+
+#: rf-admin-bookings-coupons.php:53 rf-admin-bookings-discounts.php:50
+#: rf-admin-bookings-options.php:93 rf-admin-bookings-taxes.php:51
+#: rf-admin-pricechanges.php:64 rf-admin-pricechanges.php:113
+#: rf-admin-pricechanges.php:146 rf-admin-pricechanges.php:180
+#: rf-functions.php:920
+msgid "End date"
+msgstr "End date"
+
+#: rf-admin-bookings-coupons.php:53 rf-admin-pricechanges.php:146
+msgid "End of availability date of the coupon."
+msgstr "End of availability date of the coupon."
+
+#: rf-admin-bookings-coupons.php:54 rf-admin-bookings-discounts.php:51
+#: rf-admin-bookings-taxes.php:52 rf-admin-pricechanges.php:147
+#: rf-admin-pricechanges.php:181 rf-functions-booking-preview-save.php:121
+#: rf-functions-booking.php:254 rf-functions-booking.php:293
+msgid "Quantity"
+msgstr "Quantity"
+
+#: rf-admin-bookings-coupons.php:54 rf-admin-pricechanges.php:147
+msgid ""
+"Total number of times the coupon can be used. Put 0 for an unlimited "
+"quantity."
+msgstr ""
+"Total number of times the coupon can be used. Put 0 for an unlimited "
+"quantity."
+
+#: rf-admin-bookings-coupons.php:55 rf-admin-bookings-discounts.php:52
+#: rf-admin-bookings-options.php:29 rf-admin-bookings-options.php:70
+#: rf-admin-bookings-options.php:105 rf-admin-bookings-taxes.php:16
+#: rf-admin-bookings-taxes.php:37 rf-admin-bookings-taxes.php:53
+#: rf-admin-pricechanges.php:82 rf-admin-pricechanges.php:115
+#: rf-admin-pricechanges.php:148 rf-admin-pricechanges.php:182
+#: rf-admin-ui.php:55 rf-functions-booking-preview-save.php:290
+#: rf-functions-booking-preview-save.php:361 rf-functions-booking.php:255
+#: rf-functions-booking.php:294 rf-functions.php:923
+msgid "Amount"
+msgstr "Amount"
+
+#: rf-admin-bookings-coupons.php:56 rf-admin-bookings-discounts.php:53
+#: rf-admin-bookings-options.php:30 rf-admin-bookings-options.php:71
+#: rf-admin-bookings-options.php:106 rf-admin-bookings-taxes.php:17
+#: rf-admin-bookings-taxes.php:38 rf-admin-bookings-taxes.php:54
+#: rf-admin-pricechanges.php:83 rf-admin-pricechanges.php:116
+#: rf-admin-pricechanges.php:149 rf-admin-pricechanges.php:183
+#: rf-admin-ui.php:56 rf-functions-booking-preview-save.php:135
+#: rf-functions-booking-preview-save.php:215
+#: rf-functions-booking-preview-save.php:294
+#: rf-functions-booking-preview-save.php:365 rf-functions-booking.php:256
+#: rf-functions-booking.php:295 rf-functions.php:924
+msgid "Percentage"
+msgstr "Percentage"
+
+#: rf-admin-bookings-coupons.php:57 rf-admin-pricechanges.php:150
+msgid "Periodicity of the coupon (in hours)"
+msgstr "Periodicity of the coupon (in hours)"
+
+#: rf-admin-bookings-coupons.php:57 rf-admin-pricechanges.php:150
+msgid ""
+"Set 0 for a fixed amount / percentage coupon or, for example, set \"24\" for "
+"a coupon applied for each day booked."
+msgstr ""
+"Set 0 for a fixed amount / percentage coupon or, for example, set \"24\" for "
+"a coupon applied for each day booked."
+
+#: rf-admin-bookings-coupons.php:58 rf-admin-pricechanges.php:151
+msgid "Code to enter to benefit from the coupon."
+msgstr "Code to enter to benefit from the coupon."
+
+#: rf-admin-bookings-coupons.php:60 rf-functions-booking.php:240
+msgid "Add the coupon"
+msgstr "Add the coupon"
+
+#: rf-admin-bookings-discounts.php:4
+msgid "Discounts associated with the place"
+msgstr "Discounts associated with the place"
+
+#: rf-admin-bookings-discounts.php:16 rf-admin-bookings-discounts.php:36
+#: rf-admin-bookings-discounts.php:52 rf-admin-pricechanges.php:182
+msgid "Discount amount"
+msgstr "Discount amount"
+
+#: rf-admin-bookings-discounts.php:17 rf-admin-bookings-discounts.php:37
+#: rf-admin-bookings-discounts.php:53 rf-admin-pricechanges.php:183
+msgid "Discount percentage"
+msgstr "Discount percentage"
+
+#: rf-admin-bookings-discounts.php:24
+msgid "List of all discounts"
+msgstr "List of all discounts"
+
+#: rf-admin-bookings-discounts.php:45
+msgid "New discount"
+msgstr "New discount"
+
+#: rf-admin-bookings-discounts.php:48 rf-admin-pricechanges.php:178
+msgid "The name of the discount."
+msgstr "The name of the discount."
+
+#: rf-admin-bookings-discounts.php:49 rf-admin-pricechanges.php:179
+msgid "Availability date of the discount."
+msgstr "Availability date of the discount."
+
+#: rf-admin-bookings-discounts.php:50 rf-admin-pricechanges.php:180
+msgid "End date of availability of the discount."
+msgstr "End date of availability of the discount."
+
+#: rf-admin-bookings-discounts.php:51 rf-admin-pricechanges.php:181
+msgid ""
+"Total number of times the discount can be used. Put 0 for an unlimited "
+"quantity."
+msgstr ""
+"Total number of times the discount can be used. Put 0 for an unlimited "
+"quantity."
+
+#: rf-admin-bookings-discounts.php:54 rf-admin-pricechanges.php:184
+msgid "Periodicity of the discount (in hours)"
+msgstr "Periodicity of the discount (in hours)"
+
+#: rf-admin-bookings-discounts.php:54 rf-admin-pricechanges.php:184
+msgid ""
+"Set 0 for a fixed amount / percentage discount or, for example, set \"24\" "
+"for a discount applied for each day booked."
+msgstr ""
+"Set 0 for a fixed amount / percentage discount or, for example, set \"24\" "
+"for a discount applied for each day booked."
+
+#: rf-admin-bookings-discounts.php:55 rf-admin-pricechanges.php:185
+msgid ""
+"Code to enter to benefit from the discount. Leave empty for an automatic "
+"discount."
+msgstr ""
+"Code to enter to benefit from the discount. Leave empty for an automatic "
+"discount."
+
+#: rf-admin-bookings-discounts.php:57
+msgid "Add discount"
+msgstr "Add discount"
+
+#: rf-admin-bookings-display.php:11 rf-admin-bookings-general.php:10
+#: rf-shortcode.php:256
+msgid "Information"
+msgstr "Information"
+
+#: rf-admin-bookings-display.php:15 rf-admin-bookings-general.php:132
+#: rf-functions.php:789
+msgid "Start date of availability"
+msgstr "Start date of availability"
+
+#: rf-admin-bookings-display.php:17 rf-admin-bookings-display.php:22
+#: rf-admin-bookings-display.php:27 rf-admin-bookings-display.php:32
+#: rf-admin-bookings-display.php:37 rf-admin-bookings-display.php:42
+#: rf-admin-bookings-display.php:47 rf-admin-bookings-display.php:52
+#: rf-admin-bookings-display.php:57 rf-admin-bookings-display.php:62
+#: rf-admin-bookings-display.php:78 rf-admin-bookings-display.php:83
+#: rf-admin-bookings-display.php:88 rf-admin-bookings-display.php:93
+#: rf-admin-bookings-display.php:98 rf-admin-bookings-display.php:103
+#: rf-admin-bookings-display.php:108 rf-admin-bookings-display.php:113
+#: rf-admin-bookings-display.php:118 rf-admin-bookings-display.php:123
+#: rf-admin-bookings-display.php:128 rf-admin-bookings-display.php:133
+#: rf-admin-bookings-display.php:138 rf-admin-bookings-display.php:143
+#: rf-admin-bookings-display.php:148
+msgid "Required"
+msgstr "Required"
+
+#: rf-admin-bookings-display.php:20 rf-admin-bookings-general.php:134
+#: rf-functions.php:790
+msgid "End date of availability"
+msgstr "End date of availability"
+
+#: rf-admin-bookings-display.php:25 rf-shortcode.php:153
+msgid "Price of the place"
+msgstr "Price of the place"
+
+#: rf-admin-bookings-display.php:30
+msgid "Deposit (Price)"
+msgstr "Deposit (Price)"
+
+#: rf-admin-bookings-display.php:35
+msgid "Deposit (Percentage)"
+msgstr "Deposit (Percentage)"
+
+#: rf-admin-bookings-display.php:40 rf-shortcode.php:164
+msgid "Time unit"
+msgstr "Time unit"
+
+#: rf-admin-bookings-display.php:45 rf-shortcode.php:167
+msgid "Min. booking duration"
+msgstr "Min. booking duration"
+
+#: rf-admin-bookings-display.php:50 rf-shortcode.php:170
+msgid "Max. booking duration"
+msgstr "Max. booking duration"
+
+#: rf-admin-bookings-display.php:60
+msgid "Calendar"
+msgstr "Calendar"
+
+#: rf-admin-bookings-display.php:64
+msgid ""
+"If an information is checked and \"Required\" is not checked, then the "
+"information is displayed only if it is relevant (different from zero, date "
+"not exceeded). To display the information in all cases, check \"Required\"."
+msgstr ""
+"If an information is checked and \"Required\" is not checked, then the "
+"information is displayed only if it is relevant (different from zero, date "
+"not exceeded). To display the information in all cases, check \"Required\"."
+
+#: rf-admin-bookings-display.php:72
+msgid "Form"
+msgstr "Form"
+
+#: rf-admin-bookings-display.php:81
+msgid "Booking start date"
+msgstr "Booking start date"
+
+#: rf-admin-bookings-display.php:86
+msgid "Booking start time"
+msgstr "Booking start time"
+
+#: rf-admin-bookings-display.php:91
+msgid "Booking end date"
+msgstr "Booking end date"
+
+#: rf-admin-bookings-display.php:96
+msgid "Booking end time"
+msgstr "Booking end time"
+
+#: rf-admin-bookings-display.php:141
+msgid "Phone"
+msgstr "Phone"
+
+#: rf-admin-bookings-display.php:146
+msgid "Notes"
+msgstr "Notes"
+
+#: rf-admin-bookings-display.php:150
+msgid ""
+"If \"Required\" is checked, then the field must be filled in to validate the "
+"booking."
+msgstr ""
+"If \"Required\" is checked, then the field must be filled in to validate the "
+"booking."
+
+#: rf-admin-bookings-display.php:157
+msgid "Save display"
+msgstr "Save display"
+
+#: rf-admin-bookings-general.php:12
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: rf-admin-bookings-general.php:13
+msgid ""
+"Copy-paste this shortcode into a post or page to display the booking form."
+msgstr ""
+"Copy-paste this shortcode into a post or page to display the booking form."
+
+#: rf-admin-bookings-general.php:18
+msgid ""
+"The name displayed to visitors (e.g. \"Classic houses\", \"Mobil-homes\", "
+"\"Guest houses\", \"Menus XL\", \"Holiday Home\", \"Departure for Paris"
+"\", ...)"
+msgstr ""
+"The name displayed to visitors (e.g. \"Classic houses\", \"Mobil-homes\", "
+"\"Guest houses\", \"Menus XL\", \"Holiday Home\", \"Departure for Paris"
+"\", ...)"
+
+#: rf-admin-bookings-general.php:20
+msgid ""
+"The total number of available places which can be booked at the same time. "
+"Put for example \"20\" if you have 20 places. Leave to zero if you do not "
+"want to set a limit. The number of people can be specified by the tenants on "
+"the form or in the \"Options\", for example to differentiate between adults "
+"and children or to define a maximum number of people per place."
+msgstr ""
+"The total number of available places which can be booked at the same time. "
+"Put for example \"20\" if you have 20 places. Leave to zero if you do not "
+"want to set a limit. The number of people can be specified by the tenants on "
+"the form or in the \"Options\", for example to differentiate between adults "
+"and children or to define a maximum number of people per place."
+
+#: rf-admin-bookings-general.php:22
+msgid ""
+"For example, if the unit price includes 24hrs rental, set \"24\". For a day "
+"or overnight package, use the \"Options\". Set \"0\" for a fixed amount "
+"regardless of the booking duration."
+msgstr ""
+"For example, if the unit price includes 24hrs rental, set \"24\". For a day "
+"or overnight package, use the \"Options\". Set \"0\" for a fixed amount "
+"regardless of the booking duration."
+
+#: rf-admin-bookings-general.php:23 rf-functions.php:784
+msgid "Min. booking duration (in hours)"
+msgstr "Min. booking duration (in hours)"
+
+#: rf-admin-bookings-general.php:24
+msgid ""
+"For example if you rent two hours minimum, in this case put \"2\". Leave at "
+"zero if there is no minimum booking duration."
+msgstr ""
+"For example if you rent two hours minimum, in this case put \"2\". Leave at "
+"zero if there is no minimum booking duration."
+
+#: rf-admin-bookings-general.php:25 rf-functions.php:785
+msgid "Max. booking duration (in hours)"
+msgstr "Max. booking duration (in hours)"
+
+#: rf-admin-bookings-general.php:26
+msgid ""
+"For example if you rent one week maximum, in this case put \"168\". Leave at "
+"zero if there is no maximum booking duration."
+msgstr ""
+"For example if you rent one week maximum, in this case put \"168\". Leave at "
+"zero if there is no maximum booking duration."
+
+#: rf-admin-bookings-general.php:27 rf-functions.php:788
+msgid "Link to the general Terms of Use"
+msgstr "Link to the general Terms of Use"
+
+#: rf-admin-bookings-general.php:28
+msgid ""
+"Link to an internal or external web page presenting your GCU. Leave blank if "
+"you do not want to see a link to the general terms of use."
+msgstr ""
+"Link to an internal or external web page presenting your GCU. Leave blank if "
+"you do not want to see a link to the general terms of use."
+
+#: rf-admin-bookings-general.php:30
+msgid "Use this field to describe your property, for example."
+msgstr "Use this field to describe your property, for example."
+
+#: rf-admin-bookings-general.php:33
+msgid "Prices"
+msgstr "Prices"
+
+#: rf-admin-bookings-general.php:35 rf-admin-bookings-general.php:93
+#: rf-functions.php:781
+msgid "Unit price of the place"
+msgstr "Unit price of the place"
+
+#: rf-admin-bookings-general.php:36
+msgid ""
+"Unit price of the place. Leave to zero if you do not want to set a price."
+msgstr ""
+"Unit price of the place. Leave to zero if you do not want to set a price."
+
+#: rf-admin-bookings-general.php:38
+msgid "Currency used to display prices."
+msgstr "Currency used to display prices."
+
+#: rf-admin-bookings-general.php:40
+msgid ""
+"The amount you request for the booking to be confirmed. Leave to zero if you "
+"do not ask for a fixed deposit."
+msgstr ""
+"The amount you request for the booking to be confirmed. Leave to zero if you "
+"do not ask for a fixed deposit."
+
+#: rf-admin-bookings-general.php:42
+msgid ""
+"The percentage of the price you request for the booking to be confirmed. "
+"Leave to zero if you do not ask for a percentage deposit."
+msgstr ""
+"The percentage of the price you request for the booking to be confirmed. "
+"Leave to zero if you do not ask for a percentage deposit."
+
+#: rf-admin-bookings-general.php:43 rf-functions-booking-preview-save.php:430
+#: rf-functions.php:795
+msgid "Payment instructions"
+msgstr "Payment instructions"
+
+#: rf-admin-bookings-general.php:44
+msgid ""
+"Tell your customers the instructions to follow to make the payment: check "
+"payable to, IBAN, ..."
+msgstr ""
+"Tell your customers the instructions to follow to make the payment: check "
+"payable to, IBAN, ..."
+
+#: rf-admin-bookings-general.php:56 rf-functions.php:797
+msgid "Prices according to days"
+msgstr "Prices according to days"
+
+#: rf-admin-bookings-general.php:60 rf-admin-bookings-general.php:138
+#: rf-admin-ui.php:26 rf-functions-booking.php:93 rf-shortcode.php:125
+#: rf.php:67
+msgid "Monday"
+msgstr "Monday"
+
+#: rf-admin-bookings-general.php:62 rf-admin-bookings-general.php:66
+#: rf-admin-bookings-general.php:70 rf-admin-bookings-general.php:74
+#: rf-admin-bookings-general.php:78 rf-admin-bookings-general.php:82
+#: rf-admin-bookings-general.php:86
+msgid "Ignore periods"
+msgstr "Ignore periods"
+
+#: rf-admin-bookings-general.php:64 rf-admin-bookings-general.php:139
+#: rf-admin-ui.php:27 rf-functions-booking.php:93 rf-shortcode.php:125
+#: rf.php:68
+msgid "Tuesday"
+msgstr "Tuesday"
+
+#: rf-admin-bookings-general.php:68 rf-admin-bookings-general.php:140
+#: rf-admin-ui.php:28 rf-functions-booking.php:93 rf-shortcode.php:125
+#: rf.php:69
+msgid "Wednesday"
+msgstr "Wednesday"
+
+#: rf-admin-bookings-general.php:72 rf-admin-bookings-general.php:141
+#: rf-admin-ui.php:29 rf-functions-booking.php:93 rf-shortcode.php:125
+#: rf.php:70
+msgid "Thursday"
+msgstr "Thursday"
+
+#: rf-admin-bookings-general.php:76 rf-admin-bookings-general.php:142
+#: rf-admin-ui.php:30 rf-functions-booking.php:93 rf-shortcode.php:125
+#: rf.php:71
+msgid "Friday"
+msgstr "Friday"
+
+#: rf-admin-bookings-general.php:80 rf-admin-bookings-general.php:143
+#: rf-admin-ui.php:31 rf-functions-booking.php:93 rf-shortcode.php:125
+#: rf.php:72
+msgid "Saturday"
+msgstr "Saturday"
+
+#: rf-admin-bookings-general.php:84 rf-admin-bookings-general.php:144
+#: rf-admin-ui.php:32 rf-functions-booking.php:93 rf-shortcode.php:125
+#: rf.php:73
+msgid "Sunday"
+msgstr "Sunday"
+
+#: rf-admin-bookings-general.php:88 rf-functions.php:798
+msgid "Prices according to periods"
+msgstr "Prices according to periods"
+
+#: rf-admin-bookings-general.php:92 rf-admin-bookings-general.php:181
+msgid "Finish date"
+msgstr "Finish date"
+
+#: rf-admin-bookings-general.php:94
+msgid "You can define new prices here according to different periods"
+msgstr "You can define new prices here according to different periods"
+
+#: rf-admin-bookings-general.php:95
+msgid "Add period"
+msgstr "Add period"
+
+#: rf-admin-bookings-general.php:97
+msgid "List of periods"
+msgstr "List of periods"
+
+#: rf-admin-bookings-general.php:130
+msgid "Availability"
+msgstr "Availability"
+
+#: rf-admin-bookings-general.php:133
+msgid "When can people book?"
+msgstr "When can people book?"
+
+#: rf-admin-bookings-general.php:135
+msgid "Until when can people book?"
+msgstr "Until when can people book?"
+
+#: rf-admin-bookings-general.php:136
+msgid "Days and hours of opening, arrival and departure"
+msgstr "Days and hours of opening, arrival and departure"
+
+#: rf-admin-bookings-general.php:148 rf-admin-bookings-general.php:158
+msgid "Open"
+msgstr "Open"
+
+#: rf-admin-bookings-general.php:149 rf-admin-ui.php:75 rf-wpajax.php:760
+#: rf.php:94
+msgid "Arrival"
+msgstr "Arrival"
+
+#: rf-admin-bookings-general.php:150 rf-admin-ui.php:76 rf-wpajax.php:760
+#: rf.php:95
+msgid "Departure"
+msgstr "Departure"
+
+#: rf-admin-bookings-general.php:165
+msgid "Duplicate on the whole week"
+msgstr "Duplicate on the whole week"
+
+#: rf-admin-bookings-general.php:168
+msgid ""
+"Indicate here the days and times your establishment is open. You can also "
+"define the days and times during which you accept arrivals, as well as for "
+"requested departures. If no items are entered for arrivals / departures, "
+"then it is the opening days that determine when arrivals / departures will "
+"be made. You can also choose a reference schedule for bookings. Thus, "
+"whatever the time of arrival or departure of your customers, this is the "
+"reference that will serve as a basis for calculating the duration and price"
+msgstr ""
+"Indicate here the days and times your establishment is open. You can also "
+"define the days and times during which you accept arrivals, as well as for "
+"requested departures. If no items are entered for arrivals / departures, "
+"then it is the opening days that determine when arrivals / departures will "
+"be made. You can also choose a reference schedule for bookings. Thus, "
+"whatever the time of arrival or departure of your customers, this is the "
+"reference that will serve as a basis for calculating the duration and price"
+
+#: rf-admin-bookings-general.php:174 rf-functions.php:796
+msgid "Interval in minutes for the user"
+msgstr "Interval in minutes for the user"
+
+#: rf-admin-bookings-general.php:175
+msgid ""
+"For example, put \"30\" if you want an interval of 30 minutes to let the "
+"user choose the start and end time."
+msgstr ""
+"For example, put \"30\" if you want an interval of 30 minutes to let the "
+"user choose the start and end time."
+
+#: rf-admin-bookings-general.php:177 rf-functions.php:823
+msgid "Exceptional closure"
+msgstr "Exceptional closure"
+
+#: rf-admin-bookings-general.php:182
+msgid "Add closure"
+msgstr "Add closure"
+
+#: rf-admin-bookings-general.php:184
+msgid "List of closures"
+msgstr "List of closures"
+
+#: rf-admin-bookings-general.php:213
+msgid "Booking registration"
+msgstr "Booking registration"
+
+#: rf-admin-bookings-general.php:215 rf-functions.php:792
+msgid "Default status of a new booking"
+msgstr "Default status of a new booking"
+
+#: rf-admin-bookings-general.php:216 rf-functions.php:13
+msgid "Validation in progress"
+msgstr "Validation in progress"
+
+#: rf-admin-bookings-general.php:217 rf-functions.php:14
+msgid "Pending payment"
+msgstr "Pending payment"
+
+#: rf-admin-bookings-general.php:218 rf-functions.php:15
+msgid "Confirmed"
+msgstr "Confirmed"
+
+#: rf-admin-bookings-general.php:219 rf-functions.php:16
+msgid "Paid"
+msgstr "Paid"
+
+#: rf-admin-bookings-general.php:220 rf-functions.php:17
+msgid "Canceled"
+msgstr "Canceled"
+
+#: rf-admin-bookings-general.php:222
+msgid ""
+"Select the initial status of the booking when a customer makes a booking "
+"request."
+msgstr ""
+"Select the initial status of the booking when a customer makes a booking "
+"request."
+
+#: rf-admin-bookings-general.php:224 rf-functions.php:793
+msgid "Receive email"
+msgstr "Receive email"
+
+#: rf-admin-bookings-general.php:225
+msgid "Yes"
+msgstr "Yes"
+
+#: rf-admin-bookings-general.php:226
+msgid "No"
+msgstr "No"
+
+#: rf-admin-bookings-general.php:227
+msgid "Receive notification by email of a new booking"
+msgstr "Receive notification by email of a new booking"
+
+#: rf-admin-bookings-general.php:228 rf-functions.php:794
+msgid "Email notification"
+msgstr "Email notification"
+
+#: rf-admin-bookings-general.php:229
+msgid ""
+"Email address receiving bookings requests. If not specified, the default "
+"address stored in WordPress will be used."
+msgstr ""
+"Email address receiving bookings requests. If not specified, the default "
+"address stored in WordPress will be used."
+
+#: rf-admin-bookings-general.php:233
+msgid "Save general information"
+msgstr "Save general information"
+
+#: rf-admin-bookings-general.php:234
+msgid "Are you sure you want to delete this place?"
+msgstr "Are you sure you want to delete this place?"
+
+#: rf-admin-bookings-general.php:236
+msgid "Delete place"
+msgstr "Delete place"
+
+#: rf-admin-bookings-options.php:5
+msgid "Options associated with the place"
+msgstr "Options associated with the place"
+
+#: rf-admin-bookings-options.php:17 rf-admin-bookings-options.php:58
+#: rf-admin-ui.php:54
+msgid "Max. qty"
+msgstr "Max. qty"
+
+#: rf-admin-bookings-options.php:19 rf-admin-bookings-options.php:60
+#: rf-admin-bookings-options.php:95 rf-admin-pricechanges.php:68
+#: rf-admin-ui.php:64 rf-functions-booking.php:261 rf-functions-booking.php:300
+msgid "Automatic quantity"
+msgstr "Automatic quantity"
+
+#: rf-admin-bookings-options.php:21 rf-admin-bookings-options.php:62
+#: rf-admin-bookings-options.php:96 rf-admin-pricechanges.php:70
+#: rf-admin-ui.php:65 rf-functions-booking.php:262 rf-functions-booking.php:301
+msgid "User choice"
+msgstr "User choice"
+
+#: rf-admin-bookings-options.php:22 rf-admin-bookings-options.php:63
+#: rf-admin-bookings-options.php:97 rf-admin-pricechanges.php:71
+#: rf-admin-ui.php:66 rf-functions-booking.php:263 rf-functions-booking.php:302
+#: rf-wpajax.php:501
+msgid "Per booked hour"
+msgstr "Per booked hour"
+
+#: rf-admin-bookings-options.php:23 rf-admin-bookings-options.php:64
+#: rf-admin-bookings-options.php:98 rf-admin-pricechanges.php:72
+#: rf-admin-ui.php:67 rf-functions-booking.php:264 rf-functions-booking.php:303
+#: rf-wpajax.php:502
+msgid "Per booked day"
+msgstr "Per booked day"
+
+#: rf-admin-bookings-options.php:24 rf-admin-bookings-options.php:65
+#: rf-admin-bookings-options.php:99 rf-admin-pricechanges.php:73
+#: rf-admin-ui.php:68 rf-functions-booking.php:265 rf-functions-booking.php:304
+#: rf-wpajax.php:503
+msgid "Per booked night"
+msgstr "Per booked night"
+
+#: rf-admin-bookings-options.php:25 rf-admin-bookings-options.php:66
+#: rf-admin-bookings-options.php:100 rf-admin-pricechanges.php:74
+#: rf-admin-ui.php:69 rf-functions-booking.php:266 rf-functions-booking.php:305
+#: rf-wpajax.php:504
+msgid "Per booked week"
+msgstr "Per booked week"
+
+#: rf-admin-bookings-options.php:26 rf-admin-bookings-options.php:67
+#: rf-admin-bookings-options.php:101 rf-admin-pricechanges.php:75
+#: rf-admin-ui.php:70 rf-functions-booking.php:267 rf-functions-booking.php:306
+#: rf-wpajax.php:505
+msgid "Per booked month"
+msgstr "Per booked month"
+
+#: rf-admin-bookings-options.php:34 rf-admin-bookings-options.php:74
+#: rf-admin-bookings.php:105 rf-admin-pricechanges.php:41
+#: rf-admin-pricechanges.php:48 rf-admin-ui.php:60
+#: rf-functions-booking-preview-save.php:173
+msgid "Options"
+msgstr "Options"
+
+#: rf-admin-bookings-options.php:47
+msgid "List of all options"
+msgstr "List of all options"
+
+#: rf-admin-bookings-options.php:88
+msgid "New option"
+msgstr "New option"
+
+#: rf-admin-bookings-options.php:91 rf-admin-pricechanges.php:62
+msgid "The name of the option, visible to customers"
+msgstr "The name of the option, visible to customers"
+
+#: rf-admin-bookings-options.php:92 rf-admin-pricechanges.php:63
+msgid "Availability date for the option."
+msgstr "Availability date for the option."
+
+#: rf-admin-bookings-options.php:93 rf-admin-pricechanges.php:64
+msgid "End date of availability for the option."
+msgstr "End date of availability for the option."
+
+#: rf-admin-bookings-options.php:94 rf-admin-pricechanges.php:65
+msgid "Maximum quantity per booking"
+msgstr "Maximum quantity per booking"
+
+#: rf-admin-bookings-options.php:94 rf-admin-pricechanges.php:65
+msgid "Number of times the option can be used per booking."
+msgstr "Number of times the option can be used per booking."
+
+#: rf-admin-bookings-options.php:102 rf-admin-pricechanges.php:78
+msgid ""
+"Allows the creation of packages per day or per night. For example, if user "
+"booked for 3 days, the option will be applied 3 times."
+msgstr ""
+"Allows the creation of packages per day or per night. For example, if user "
+"booked for 3 days, the option will be applied 3 times."
+
+#: rf-admin-bookings-options.php:104 rf-functions.php:928
+msgid "Options details"
+msgstr "Options details"
+
+#: rf-admin-bookings-options.php:104 rf-admin-pricechanges.php:81
+msgid "Optional - Enter here the label for each option (1 line per option)"
+msgstr "Optional - Enter here the label for each option (1 line per option)"
+
+#: rf-admin-bookings-options.php:105 rf-admin-pricechanges.php:82
+msgid "Unit amount of the option."
+msgstr "Unit amount of the option."
+
+#: rf-admin-bookings-options.php:106 rf-admin-pricechanges.php:83
+msgid "Percentage of the option."
+msgstr "Percentage of the option."
+
+#: rf-admin-bookings-options.php:107 rf-admin-pricechanges.php:84
+msgid "Periodicity of the option (in hours)"
+msgstr "Periodicity of the option (in hours)"
+
+#: rf-admin-bookings-options.php:107 rf-admin-pricechanges.php:84
+msgid ""
+"Set 0 for a fixed amount/percentage option or, for example, set \"24\" for "
+"an option applied for each day reserved."
+msgstr ""
+"Set 0 for a fixed amount/percentage option or, for example, set \"24\" for "
+"an option applied for each day reserved."
+
+#: rf-admin-bookings-options.php:110 rf-functions-booking.php:238
+msgid "Add option"
+msgstr "Add option"
+
+#: rf-admin-bookings-taxes.php:4
+msgid "Taxes associated with the place"
+msgstr "Taxes associated with the place"
+
+#: rf-admin-bookings-taxes.php:24
+msgid "List of all taxes"
+msgstr "List of all taxes"
+
+#: rf-admin-bookings-taxes.php:46
+msgid "New tax"
+msgstr "New tax"
+
+#: rf-admin-bookings-taxes.php:49 rf-admin-pricechanges.php:111
+msgid "The name of the tax, visible to customers."
+msgstr "The name of the tax, visible to customers."
+
+#: rf-admin-bookings-taxes.php:50 rf-admin-pricechanges.php:112
+msgid "Start date for the tax."
+msgstr "Start date for the tax."
+
+#: rf-admin-bookings-taxes.php:51 rf-admin-pricechanges.php:113
+msgid "End date for the tax."
+msgstr "End date for the tax."
+
+#: rf-admin-bookings-taxes.php:52
+msgid "Total number of times the tax can be used."
+msgstr "Total number of times the tax can be used."
+
+#: rf-admin-bookings-taxes.php:53 rf-admin-pricechanges.php:115
+msgid "Fixed amount of tax."
+msgstr "Fixed amount of tax."
+
+#: rf-admin-bookings-taxes.php:54 rf-admin-pricechanges.php:116
+msgid "Percentage of tax."
+msgstr "Percentage of tax."
+
+#: rf-admin-bookings-taxes.php:55 rf-admin-pricechanges.php:117
+msgid "Periodicity of the tax (in hours)"
+msgstr "Periodicity of the tax (in hours)"
+
+#: rf-admin-bookings-taxes.php:55 rf-admin-pricechanges.php:117
+msgid ""
+"Set 0 for a fixed total amount / percentage tax or, for example, set \"24\" "
+"for a re-applied tax for each day booked."
+msgstr ""
+"Set 0 for a fixed total amount / percentage tax or, for example, set \"24\" "
+"for a re-applied tax for each day booked."
+
+#: rf-admin-bookings-taxes.php:56
+msgid "Code to enter to benefit from the tax."
+msgstr "Code to enter to benefit from the tax."
+
+#: rf-admin-bookings-taxes.php:58 rf-functions-booking.php:239
+msgid "Add tax"
+msgstr "Add tax"
+
+#: rf-admin-bookings.php:95
+msgid ""
+"Enter the main information about your place in the \"General\" tab and click "
+"on the save button."
+msgstr ""
+"Enter the main information about your place in the \"General\" tab and click "
+"on the save button."
+
+#: rf-admin-bookings.php:96
+msgid ""
+"Other tabs allow you to set options, taxes, coupons, discounts and the way "
+"the form has to be displayed."
+msgstr ""
+"Other tabs allow you to set options, taxes, coupons, discounts and the way "
+"the form has to be displayed."
+
+#: rf-admin-bookings.php:97
+msgid ""
+"Finally, get the shortcode and paste it where you want to display the "
+"booking form."
+msgstr ""
+"Finally, get the shortcode and paste it where you want to display the "
+"booking form."
+
+#: rf-admin-bookings.php:103 rf-admin-ui.php:9
+msgid "Bookings"
+msgstr "Bookings"
+
+#: rf-admin-bookings.php:104 rf-admin-parameters.php:43
+msgid "General"
+msgstr "General"
+
+#: rf-admin-bookings.php:106 rf-admin-pricechanges.php:41
+#: rf-admin-pricechanges.php:42 rf-admin-pricechanges.php:98
+#: rf-functions-booking-preview-save.php:247
+msgid "Taxes"
+msgstr "Taxes"
+
+#: rf-admin-bookings.php:107 rf-admin-pricechanges.php:43
+#: rf-admin-pricechanges.php:131
+msgid "Coupons"
+msgstr "Coupons"
+
+#: rf-admin-bookings.php:108 rf-admin-pricechanges.php:43
+#: rf-admin-pricechanges.php:44 rf-admin-pricechanges.php:165
+msgid "Discounts"
+msgstr "Discounts"
+
+#: rf-admin-bookings.php:109 rf-admin-shortcodes.php:242 rf-functions.php:893
+msgid "Display"
+msgstr "Display"
+
+#: rf-admin-parameters.php:32
+msgid "General parameters updated"
+msgstr "General parameters updated"
+
+#: rf-admin-parameters.php:44
+msgid "Rounded to"
+msgstr "Rounded to"
+
+#: rf-admin-parameters.php:46
+msgid "Number of digits to be kept after the decimal separator during rounding"
+msgstr ""
+"Number of digits to be kept after the decimal separator during rounding"
+
+#: rf-admin-parameters.php:47
+msgid "Decimal separator for CSV export"
+msgstr "Decimal separator for CSV export"
+
+#: rf-admin-parameters.php:49
+msgid ""
+"Character to use as a decimal separator for numeric values ​​when exporting "
+"CSV files"
+msgstr ""
+"Character to use as a decimal separator for numeric values ​​when exporting "
+"CSV files"
+
+#: rf-admin-parameters.php:50
+msgid "Time zone"
+msgstr "Time zone"
+
+#: rf-admin-parameters.php:68
+msgid "Time zone to use for database"
+msgstr "Time zone to use for database"
+
+#: rf-admin-parameters.php:70
+msgid "Custom CSS"
+msgstr "Custom CSS"
+
+#: rf-admin-parameters.php:72
+msgid ""
+"This setting allows you, for example, to change the visual appearance of the "
+"elements, such as colors, size and layout of the booking form via your own "
+"CSS rules."
+msgstr ""
+"This setting allows you, for example, to change the visual appearance of the "
+"elements, such as colors, size and layout of the booking form via your own "
+"CSS rules."
+
+#: rf-admin-parameters.php:78
+msgid "Data Import / Export"
+msgstr "Data Import / Export"
+
+#: rf-admin-parameters.php:79 rf-admin-parameters.php:91
+msgid "Export"
+msgstr "Export"
+
+#: rf-admin-parameters.php:89
+msgid "Bookings only"
+msgstr "Bookings only"
+
+#: rf-admin-parameters.php:90
+msgid "All tables (any date)"
+msgstr "All tables (any date)"
+
+#: rf-admin-parameters.php:91
+msgid ""
+"\"All tables\" includes bookings, places, shortcodes, price changes and "
+"parameters."
+msgstr ""
+"\"All tables\" includes bookings, places, shortcodes, price changes and "
+"parameters."
+
+#: rf-admin-parameters.php:97
+msgid "Exported Files"
+msgstr "Exported Files"
+
+#: rf-admin-parameters.php:105 rf-admin-parameters.php:108
+msgid "Import"
+msgstr "Import"
+
+#: rf-admin-parameters.php:109
+msgid ""
+"Always make a backup before importing data. In the import file, the first "
+"field of the first line must be the name of the table : \"bookings\", "
+"\"places\", \"shortcodes\", \"pricechanges\" or \"parameters\". If an id of "
+"data already exists, the data will be replaced. Don't fill id field data in "
+"the file in order to add data in all cases (except for the parameters table)."
+msgstr ""
+"Always make a backup before importing data. In the import file, the first "
+"field of the first line must be the name of the table : \"bookings\", "
+"\"places\", \"shortcodes\", \"pricechanges\" or \"parameters\". If an id of "
+"data already exists, the data will be replaced. Don't fill id field data in "
+"the file in order to add data in all cases (except for the parameters table)."
+
+#: rf-admin-parameters.php:144
+msgid "Bookings created"
+msgstr "Bookings created"
+
+#: rf-admin-parameters.php:145
+msgid "Bookings updated"
+msgstr "Bookings updated"
+
+#: rf-admin-parameters.php:220
+msgid "Places created"
+msgstr "Places created"
+
+#: rf-admin-parameters.php:221
+msgid "Places updated"
+msgstr "Places updated"
+
+#: rf-admin-parameters.php:235
+msgid "Shortcodes created"
+msgstr "Shortcodes created"
+
+#: rf-admin-parameters.php:236
+msgid "Shortcodes updated"
+msgstr "Shortcodes updated"
+
+#: rf-admin-parameters.php:250
+msgid "Price changes created"
+msgstr "Price changes created"
+
+#: rf-admin-parameters.php:251
+msgid "Price changes updated"
+msgstr "Price changes updated"
+
+#: rf-admin-parameters.php:260
+msgid "Parameters updated"
+msgstr "Parameters updated"
+
+#: rf-admin-parameters.php:263
+msgid "Import Error: First field is not a valid table name:"
+msgstr "Import Error: First field is not a valid table name:"
+
+#: rf-admin-parameters.php:266
+msgid "Import Error: Unable to read first line"
+msgstr "Import Error: Unable to read first line"
+
+#: rf-admin-parameters.php:269
+msgid "Import Error: Unable to open file"
+msgstr "Import Error: Unable to open file"
+
+#: rf-admin-parameters.php:273
+msgid "Import Error: File not found"
+msgstr "Import Error: File not found"
+
+#: rf-admin-pricechanges.php:81
+msgid "Details about options"
+msgstr "Details about options"
+
+#: rf-admin-pricechanges.php:94 rf-admin-pricechanges.php:127
+#: rf-admin-pricechanges.php:161 rf-admin-pricechanges.php:195
+msgid "Go to places edition to add items here"
+msgstr "Go to places edition to add items here"
+
+#: rf-admin-shortcodes.php:74
+msgid "Add shortcode"
+msgstr "Add shortcode"
+
+#: rf-admin-shortcodes.php:78
+msgid "Edit shortcode"
+msgstr "Edit shortcode"
+
+#: rf-admin-shortcodes.php:81 rf-admin-shortcodes.php:242 rf-functions.php:892
+#: rf-functions.php:959 rf-wpajax.php:760
+msgid "Name"
+msgstr "Name"
+
+#: rf-admin-shortcodes.php:83
+msgid "The name of the shortcode, only visible for you."
+msgstr "The name of the shortcode, only visible for you."
+
+#: rf-admin-shortcodes.php:86
+msgid "Display mode"
+msgstr "Display mode"
+
+#: rf-admin-shortcodes.php:88 rf-admin-shortcodes.php:250
+msgid "Dropdown list"
+msgstr "Dropdown list"
+
+#: rf-admin-shortcodes.php:89 rf-admin-shortcodes.php:250
+msgid "Full display"
+msgstr "Full display"
+
+#: rf-admin-shortcodes.php:91
+msgid "Choose how the shortcode should display the booking form list."
+msgstr "Choose how the shortcode should display the booking form list."
+
+#: rf-admin-shortcodes.php:101
+msgid "Add a place in the shortcode"
+msgstr "Add a place in the shortcode"
+
+#: rf-admin-shortcodes.php:120
+msgid "The place to display"
+msgstr "The place to display"
+
+#: rf-admin-shortcodes.php:125
+msgid "Position"
+msgstr "Position"
+
+#: rf-admin-shortcodes.php:131
+msgid "Redirection"
+msgstr "Redirection"
+
+#: rf-admin-shortcodes.php:134
+msgid "Pages"
+msgstr "Pages"
+
+#: rf-admin-shortcodes.php:142
+msgid "Post"
+msgstr "Post"
+
+#: rf-admin-shortcodes.php:150
+msgid "Link"
+msgstr "Link"
+
+#: rf-admin-shortcodes.php:153
+msgid "Which page should the user selection redirect to?"
+msgstr "Which page should the user selection redirect to?"
+
+#: rf-admin-shortcodes.php:155 rf-functions.php:918
+msgid "Description"
+msgstr "Description"
+
+#: rf-admin-shortcodes.php:158
+msgid "The description of the place, only visible with the full display mode."
+msgstr "The description of the place, only visible with the full display mode."
+
+#: rf-admin-shortcodes.php:172
+msgid "Are you sure you want to delete this shortcode?"
+msgstr "Are you sure you want to delete this shortcode?"
+
+#: rf-admin-shortcodes.php:182
+msgid ""
+"Note: You will be able to add more places in the shortcode after each saving."
+msgstr ""
+"Note: You will be able to add more places in the shortcode after each saving."
+
+#: rf-admin-shortcodes.php:199
+msgid "Shortcodes for a single place (Booking form)"
+msgstr "Shortcodes for a single place (Booking form)"
+
+#: rf-admin-shortcodes.php:200
+msgid ""
+"Here you can choose a language (optional) for the display of the booking "
+"form. Then, copy the shortcode and paste it where you want (in a post or in "
+"a page) to show the form."
+msgstr ""
+"Here you can choose a language (optional) for the display of the booking "
+"form. Then, copy the shortcode and paste it where you want (in a post or in "
+"a page) to show the form."
+
+#: rf-admin-shortcodes.php:202
+msgid ""
+"To add more languages, please open the pot file in the plugin languages "
+"directory and create a new mo file based on it, with a program like Poedit. "
+"Then share your creation with the community!"
+msgstr ""
+"To add more languages, please open the pot file in the plugin languages "
+"directory and create a new mo file based on it, with a program like Poedit. "
+"Then share your creation with the community!"
+
+#: rf-admin-shortcodes.php:205
+msgid "Add a booking place before editing shortcodes"
+msgstr "Add a booking place before editing shortcodes"
+
+#: rf-admin-shortcodes.php:207 rf-admin-shortcodes.php:242 rf-admin-ui.php:10
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: rf-admin-shortcodes.php:207
+msgid "Languages"
+msgstr "Languages"
+
+#: rf-admin-shortcodes.php:239
+msgid "Shortcodes for a multiple selection of place"
+msgstr "Shortcodes for a multiple selection of place"
+
+#: rf-admin-shortcodes.php:240
+msgid ""
+"If you want to propose a list of available places for your visitors, you can "
+"add a shortcode here and choose the places it will display."
+msgstr ""
+"If you want to propose a list of available places for your visitors, you can "
+"add a shortcode here and choose the places it will display."
+
+#: rf-admin-shortcodes.php:259
+msgid "Add a new shortcode"
+msgstr "Add a new shortcode"
+
+#: rf-admin-space-crud.php:19
+msgid "The place has been added"
+msgstr "The place has been added"
+
+#: rf-admin-space-crud.php:30
+msgid "The place has been updated"
+msgstr "The place has been updated"
+
+#: rf-admin-space-crud.php:86
+msgid "The information to be displayed has been updated"
+msgstr "The information to be displayed has been updated"
+
+#: rf-admin-space-crud.php:92 rf-admin-space-crud.php:95
+msgid "The place has been removed"
+msgstr "The place has been removed"
+
+#: rf-admin-ui.php:11 rf-functions.php:754
+msgid "Price changes"
+msgstr "Price changes"
+
+#: rf-admin-ui.php:12
+msgid "Parameters"
+msgstr "Parameters"
+
+#: rf-admin-ui.php:25 rf-functions-booking-preview-save.php:158
+#: rf-functions-booking-preview-save.php:233
+#: rf-functions-booking-preview-save.php:304
+#: rf-functions-booking-preview-save.php:374 rf-functions-booking.php:100
+#: rf-functions-booking.php:106 rf-functions-booking.php:257
+#: rf-functions-booking.php:296 rf-functions.php:339 rf.php:66
+msgid "hrs"
+msgstr "hrs"
+
+#: rf-admin-ui.php:33 rf-functions.php:50 rf.php:74
+msgid "January"
+msgstr "January"
+
+#: rf-admin-ui.php:34 rf-functions.php:50 rf.php:75
+msgid "February"
+msgstr "February"
+
+#: rf-admin-ui.php:35 rf-functions.php:50 rf.php:76
+msgid "March"
+msgstr "March"
+
+#: rf-admin-ui.php:36 rf-functions.php:50 rf.php:77
+msgid "April"
+msgstr "April"
+
+#: rf-admin-ui.php:37 rf-functions.php:50 rf.php:78
+msgid "May"
+msgstr "May"
+
+#: rf-admin-ui.php:38 rf-functions.php:51 rf.php:79
+msgid "June"
+msgstr "June"
+
+#: rf-admin-ui.php:39 rf-functions.php:51 rf.php:80
+msgid "July"
+msgstr "July"
+
+#: rf-admin-ui.php:40 rf-functions.php:51 rf.php:81
+msgid "August"
+msgstr "August"
+
+#: rf-admin-ui.php:41 rf-functions.php:51 rf.php:82
+msgid "September"
+msgstr "September"
+
+#: rf-admin-ui.php:42 rf-functions.php:51 rf.php:83
+msgid "October"
+msgstr "October"
+
+#: rf-admin-ui.php:43 rf-functions.php:52 rf.php:84
+msgid "November"
+msgstr "November"
+
+#: rf-admin-ui.php:44 rf-functions.php:52 rf.php:85
+msgid "December"
+msgstr "December"
+
+#: rf-admin-ui.php:46
+msgid "Are you sure you want to delete this item?"
+msgstr "Are you sure you want to delete this item?"
+
+#: rf-admin-ui.php:47
+msgid "Please fill in the label"
+msgstr "Please fill in the label"
+
+#: rf-admin-ui.php:48
+msgid "Please fill in the maximum quantity"
+msgstr "Please fill in the maximum quantity"
+
+#: rf-admin-ui.php:49
+msgid "Please fill in the end date"
+msgstr "Please fill in the end date"
+
+#: rf-admin-ui.php:50
+msgid "free place(s)"
+msgstr "free place(s)"
+
+#: rf-admin-ui.php:62
+msgid "Unsaved changes! Do you want to stay on the page to save them?"
+msgstr "Unsaved changes! Do you want to stay on the page to save them?"
+
+#: rf-admin-ui.php:63
+msgid "Please fill in all fields in position"
+msgstr "Please fill in all fields in position"
+
+#: rf-admin-ui.php:71 rf.php:90
+msgid "Closed"
+msgstr "Closed"
+
+#: rf-admin-ui.php:72 rf.php:91
+msgid "All available"
+msgstr "All available"
+
+#: rf-admin-ui.php:73 rf.php:92
+msgid "Available"
+msgstr "Available"
+
+#: rf-admin-ui.php:74 rf.php:93
+msgid "Unavailable"
+msgstr "Unavailable"
+
+#: rf-admin-ui.php:77 rf.php:96
+msgid "Booking unavailable"
+msgstr "Booking unavailable"
+
+#: rf-admin-ui.php:78 rf.php:97
+msgid "spaces"
+msgstr "spaces"
+
+#: rf-admin-ui.php:79 rf.php:98
+msgid "space"
+msgstr "space"
+
+#: rf-admin-ui.php:80 rf.php:99
+msgid "Opening time"
+msgstr "Opening time"
+
+#: rf-admin-ui.php:81 rf.php:100
+msgid "Allowed arrival time"
+msgstr "Allowed arrival time"
+
+#: rf-admin-ui.php:82 rf.php:101
+msgid "Requested departure time"
+msgstr "Requested departure time"
+
+#: rf-admin-ui.php:135
+msgid "Welcome to the Réservation Facile plugin"
+msgstr "Welcome to the Réservation Facile plugin"
+
+#: rf-admin-ui.php:136
+msgid "To start, follow the green blocks. "
+msgstr "To start, follow the green blocks. "
+
+#: rf-admin-ui.php:137
+msgid ""
+"If you are new to this plugin, it is advisable to consult the documentation "
+"available on the right side of this page or after this message. "
+msgstr ""
+"If you are new to this plugin, it is advisable to consult the documentation "
+"available on the right side of this page or after this message. "
+
+#: rf-admin-ui.php:138
+msgid ""
+"Do not hesitate to consult our YouTube channel to view the different "
+"possibilities of the plugin depending on your activity."
+msgstr ""
+"Do not hesitate to consult our YouTube channel to view the different "
+"possibilities of the plugin depending on your activity."
+
+#: rf-admin-ui.php:153
+msgid "Add booking"
+msgstr "Add booking"
+
+#: rf-admin-ui.php:155 rf-admin-ui.php:165
+msgid "Add place"
+msgstr "Add place"
+
+#: rf-admin-ui.php:156 rf-admin-ui.php:199
+msgid "Manage place"
+msgstr "Manage place"
+
+#: rf-admin-ui.php:166 rf-functions.php:751
+msgid "Location"
+msgstr "Location"
+
+#: rf-admin-ui.php:169
+msgid "Add"
+msgstr "Add"
+
+#: rf-admin-ui.php:170 rf-admin-ui.php:206
+msgid "Cancel"
+msgstr "Cancel"
+
+#: rf-admin-ui.php:180
+msgid ""
+"In \"Location\", enter where the places you want to propose for the "
+"reservation are."
+msgstr ""
+"In \"Location\", enter where the places you want to propose for the "
+"reservation are."
+
+#: rf-admin-ui.php:181
+msgid ""
+"In \"Place\", enter the kind of place you propose. For example: Rooms, "
+"House, Restaurant table..."
+msgstr ""
+"In \"Place\", enter the kind of place you propose. For example: Rooms, "
+"House, Restaurant table..."
+
+#: rf-admin-ui.php:204
+msgid "Manage"
+msgstr "Manage"
+
+#: rf-admin-ui.php:236
+msgid "Min. departure date"
+msgstr "Min. departure date"
+
+#: rf-admin-ui.php:237
+msgid "Max. arrival date"
+msgstr "Max. arrival date"
+
+#: rf-admin-ui.php:239
+msgid "All booking status"
+msgstr "All booking status"
+
+#: rf-admin-ui.php:246
+msgid "Show"
+msgstr "Show"
+
+#: rf-admin-ui.php:254
+msgid "Export in CSV"
+msgstr "Export in CSV"
+
+#: rf-functions-booking-preview-save.php:37
+msgid "Overview of the booking"
+msgstr "Overview of the booking"
+
+#: rf-functions-booking-preview-save.php:40
+msgid "Your contact details"
+msgstr "Your contact details"
+
+#: rf-functions-booking-preview-save.php:65
+#: rf-functions-booking-preview-save.php:72
+msgid "Booking date"
+msgstr "Booking date"
+
+#: rf-functions-booking-preview-save.php:65
+#: rf-functions-booking-preview-save.php:72
+msgid "until"
+msgstr "until"
+
+#: rf-functions-booking-preview-save.php:79
+msgid "Duration of the booking"
+msgstr "Duration of the booking"
+
+#: rf-functions-booking-preview-save.php:81
+#: rf-functions-booking-preview-save.php:146
+msgid "Total without taxes"
+msgstr "Total without taxes"
+
+#: rf-functions-booking-preview-save.php:123
+msgid "place(s)"
+msgstr "place(s)"
+
+#: rf-functions-booking-preview-save.php:131
+#: rf-functions-booking-preview-save.php:211 rf-functions.php:734
+msgid "Unit price"
+msgstr "Unit price"
+
+#: rf-functions-booking-preview-save.php:138
+#: rf-functions-booking-preview-save.php:218
+#: rf-functions-booking-preview-save.php:301
+#: rf-functions-booking-preview-save.php:304
+#: rf-functions-booking-preview-save.php:371
+#: rf-functions-booking-preview-save.php:374
+msgid "for"
+msgstr "for"
+
+#: rf-functions-booking-preview-save.php:143 rf-functions-booking.php:275
+#: rf-functions-booking.php:315 rf-wpajax.php:512
+msgid "Your choice"
+msgstr "Your choice"
+
+#: rf-functions-booking-preview-save.php:176
+msgid "Total with options (without taxes)"
+msgstr "Total with options (without taxes)"
+
+#: rf-functions-booking-preview-save.php:250
+msgid "Total with taxes"
+msgstr "Total with taxes"
+
+#: rf-functions-booking-preview-save.php:307
+msgid "Total with taxes and discount"
+msgstr "Total with taxes and discount"
+
+#: rf-functions-booking-preview-save.php:326
+msgid "Discount"
+msgstr "Discount"
+
+#: rf-functions-booking-preview-save.php:377
+msgid "Total with taxes and coupon"
+msgstr "Total with taxes and coupon"
+
+#: rf-functions-booking-preview-save.php:395
+msgid "Coupon"
+msgstr "Coupon"
+
+#: rf-functions-booking-preview-save.php:410
+msgid "Deposit requested"
+msgstr "Deposit requested"
+
+#: rf-functions-booking-preview-save.php:419
+msgid "Remaining amount to be paid on arrival"
+msgstr "Remaining amount to be paid on arrival"
+
+#: rf-functions-booking-preview-save.php:443
+msgid "Edit my entry"
+msgstr "Edit my entry"
+
+#: rf-functions-booking-preview-save.php:453
+msgid "Confirm the booking"
+msgstr "Confirm the booking"
+
+#: rf-functions-booking.php:28 rf.php:56
+msgid "This arrival time is not allowed"
+msgstr "This arrival time is not allowed"
+
+#: rf-functions-booking.php:39 rf.php:58
+msgid "This departure time is not allowed"
+msgstr "This departure time is not allowed"
+
+#: rf-functions-booking.php:52 rf-functions-booking.php:73 rf.php:60
+msgid "Booking only possible from"
+msgstr "Booking only possible from"
+
+#: rf-functions-booking.php:57 rf-functions-booking.php:78 rf.php:61
+msgid "Booking only possible until"
+msgstr "Booking only possible until"
+
+#: rf-functions-booking.php:63 rf-functions-booking.php:65
+#: rf-functions-booking.php:84 rf-functions-booking.php:86 rf.php:62
+msgid "Booking not possible before today."
+msgstr "Booking not possible before today."
+
+#: rf-functions-booking.php:100 rf.php:63
+msgid "Duration of the booking insufficient. Minimum duration"
+msgstr "Duration of the booking insufficient. Minimum duration"
+
+#: rf-functions-booking.php:106
+msgid "Duration of the reservation is too long. Maximum duration"
+msgstr "Duration of the reservation is too long. Maximum duration"
+
+#: rf-functions-booking.php:112 rf.php:88
+msgid "The arrival date is after the departure date"
+msgstr "The arrival date is after the departure date"
+
+#: rf-functions-booking.php:125 rf-functions-booking.php:135
+msgid "Booking is not possible on the whole day of"
+msgstr "Booking is not possible on the whole day of"
+
+#: rf-functions-booking.php:143 rf.php:86
+msgid "Arrival is not possible on"
+msgstr "Arrival is not possible on"
+
+#: rf-functions-booking.php:151 rf.php:87
+msgid "Departure is not possible on"
+msgstr "Departure is not possible on"
+
+#: rf-functions-booking.php:165
+msgid ""
+"We are sorry, there are not enough places available for the requested period."
+msgstr ""
+"We are sorry, there are not enough places available for the requested period."
+
+#: rf-functions-booking.php:194
+msgid "We are sorry, this discount is no longer available."
+msgstr "We are sorry, this discount is no longer available."
+
+#: rf-functions-booking.php:206
+msgid "We are sorry, this coupon is no longer available."
+msgstr "We are sorry, this coupon is no longer available."
+
+#: rf-functions-booking.php:214
+msgid "Discount code is unknown"
+msgstr "Discount code is unknown"
+
+#: rf-functions-booking.php:219
+msgid "Coupon code is unknown"
+msgstr "Coupon code is unknown"
+
+#: rf-functions-booking.php:238
+msgid "Options added"
+msgstr "Options added"
+
+#: rf-functions-booking.php:239
+msgid "Taxes applied"
+msgstr "Taxes applied"
+
+#: rf-functions-booking.php:240
+msgid "Coupons used"
+msgstr "Coupons used"
+
+#: rf-functions-booking.php:241
+msgid "Discounts used"
+msgstr "Discounts used"
+
+#: rf-functions-booking.php:241
+msgid "Add the discount"
+msgstr "Add the discount"
+
+#: rf-functions-booking.php:283
+msgid "Select space first"
+msgstr "Select space first"
+
+#: rf-functions.php:337
+msgid "hr"
+msgstr "hr"
+
+#: rf-functions.php:346
+msgid "day"
+msgstr "day"
+
+#: rf-functions.php:348
+msgid "days"
+msgstr "days"
+
+#: rf-functions.php:354
+msgid "week"
+msgstr "week"
+
+#: rf-functions.php:356
+msgid "weeks"
+msgstr "weeks"
+
+#: rf-functions.php:363
+msgid "and"
+msgstr "and"
+
+#: rf-functions.php:365
+msgid "min"
+msgstr "min"
+
+#: rf-functions.php:370
+msgid "hours"
+msgstr "hours"
+
+#: rf-functions.php:730 rf-functions.php:776 rf-functions.php:891
+#: rf-functions.php:916 rf-functions.php:958
+msgid "Id"
+msgstr "Id"
+
+#: rf-functions.php:732
+msgid "Date"
+msgstr "Date"
+
+#: rf-functions.php:750
+msgid "Id place"
+msgstr "Id place"
+
+#: rf-functions.php:755
+msgid "Price according to periods"
+msgstr "Price according to periods"
+
+#: rf-functions.php:756
+msgid "Price according to days"
+msgstr "Price according to days"
+
+#: rf-functions.php:777
+msgid "Id location"
+msgstr "Id location"
+
+#: rf-functions.php:778
+msgid "Location name"
+msgstr "Location name"
+
+#: rf-functions.php:779
+msgid "Place label"
+msgstr "Place label"
+
+#: rf-functions.php:799
+msgid "Form: Booking start time"
+msgstr "Form: Booking start time"
+
+#: rf-functions.php:800
+msgid "Form: Booking end time"
+msgstr "Form: Booking end time"
+
+#: rf-functions.php:801
+msgid "Form: Number of people"
+msgstr "Form: Number of people"
+
+#: rf-functions.php:802
+msgid "Form: Last name"
+msgstr "Form: Last name"
+
+#: rf-functions.php:803
+msgid "Form: First name"
+msgstr "Form: First name"
+
+#: rf-functions.php:804
+msgid "Form: Address"
+msgstr "Form: Address"
+
+#: rf-functions.php:805
+msgid "Form: Zip code"
+msgstr "Form: Zip code"
+
+#: rf-functions.php:806
+msgid "Form: City"
+msgstr "Form: City"
+
+#: rf-functions.php:807
+msgid "Form: Country"
+msgstr "Form: Country"
+
+#: rf-functions.php:808
+msgid "Form: Email"
+msgstr "Form: Email"
+
+#: rf-functions.php:809
+msgid "Form: Tel."
+msgstr "Form: Tel."
+
+#: rf-functions.php:810
+msgid "Form: Notes"
+msgstr "Form: Notes"
+
+#: rf-functions.php:811
+msgid "Form: Number of places"
+msgstr "Form: Number of places"
+
+#: rf-functions.php:812
+msgid "Display: Start date of availability"
+msgstr "Display: Start date of availability"
+
+#: rf-functions.php:813
+msgid "Display: End date of availability"
+msgstr "Display: End date of availability"
+
+#: rf-functions.php:814
+msgid "Display: Price of the place"
+msgstr "Display: Price of the place"
+
+#: rf-functions.php:815
+msgid "Display: Deposit (Price)"
+msgstr "Display: Deposit (Price)"
+
+#: rf-functions.php:816
+msgid "Display: Deposit (Percentage)"
+msgstr "Display: Deposit (Percentage)"
+
+#: rf-functions.php:817
+msgid "Display: Time unit"
+msgstr "Display: Time unit"
+
+#: rf-functions.php:818
+msgid "Display: Min. booking duration"
+msgstr "Display: Min. booking duration"
+
+#: rf-functions.php:819
+msgid "Display: Max. booking duration"
+msgstr "Display: Max. booking duration"
+
+#: rf-functions.php:820
+msgid "Display: Description / Details"
+msgstr "Display: Description / Details"
+
+#: rf-functions.php:821
+msgid "Display: Calendar"
+msgstr "Display: Calendar"
+
+#: rf-functions.php:822
+msgid "Opening Times"
+msgstr "Opening Times"
+
+#: rf-functions.php:824
+msgid "Price changes Ids"
+msgstr "Price changes Ids"
+
+#: rf-functions.php:894
+msgid "Places"
+msgstr "Places"
+
+#: rf-functions.php:921
+msgid "Quantity / Max. quantity"
+msgstr "Quantity / Max. quantity"
+
+#: rf-functions.php:922
+msgid "Initial quantity"
+msgstr "Initial quantity"
+
+#: rf-functions.php:926
+msgid "Code / Automatic Quantity"
+msgstr "Code / Automatic Quantity"
+
+#: rf-functions.php:927
+msgid "Type"
+msgstr "Type"
+
+#: rf-functions.php:960
+msgid "Value"
+msgstr "Value"
+
+#: rf-shortcode.php:28 rf-shortcode.php:108
+msgid "\"id\" attribute missing when calling shortcode"
+msgstr "\"id\" attribute missing when calling shortcode"
+
+#: rf-shortcode.php:35
+msgid "Select location"
+msgstr "Select location"
+
+#: rf-shortcode.php:71
+msgid "More details"
+msgstr "More details"
+
+#: rf-shortcode.php:83
+msgid "We are sorry, this list of locations is no longer available."
+msgstr "We are sorry, this list of locations is no longer available."
+
+#: rf-shortcode.php:140
+msgid "This page require Javascript to be enabled."
+msgstr "This page require Javascript to be enabled."
+
+#: rf-shortcode.php:215
+msgid "Special prices"
+msgstr "Special prices"
+
+#: rf-shortcode.php:225
+msgid "Special periods"
+msgstr "Special periods"
+
+#: rf-shortcode.php:259
+msgid "Availability calendar"
+msgstr "Availability calendar"
+
+#: rf-shortcode.php:284 rf-shortcode.php:456
+msgid "Book"
+msgstr "Book"
+
+#: rf-shortcode.php:304
+msgid "indicates required fields"
+msgstr "indicates required fields"
+
+#: rf-shortcode.php:316 rf-shortcode.php:317
+msgid "Please select the arrival date first"
+msgstr "Please select the arrival date first"
+
+#: rf-shortcode.php:321
+msgid "Duration"
+msgstr "Duration"
+
+#: rf-shortcode.php:335 rf-shortcode.php:336
+msgid "Please select the departure date first"
+msgstr "Please select the departure date first"
+
+#: rf-shortcode.php:352
+msgid "Please select your arrival date to see the options available"
+msgstr "Please select your arrival date to see the options available"
+
+#: rf-shortcode.php:455
+msgid "Accept the Terms"
+msgstr "Accept the Terms"
+
+#: rf-shortcode.php:460
+msgid "We are sorry, this location is no longer available."
+msgstr "We are sorry, this location is no longer available."
+
+#: rf-wpajax.php:122 rf-wpajax.php:222
+msgid "Please fill in the dates for the period"
+msgstr "Please fill in the dates for the period"
+
+#: rf-wpajax.php:124 rf-wpajax.php:224
+msgid "Start date is after finish date"
+msgstr "Start date is after finish date"
+
+#: rf-wpajax.php:137 rf-wpajax.php:140 rf-wpajax.php:143 rf-wpajax.php:237
+#: rf-wpajax.php:240 rf-wpajax.php:243
+msgid "Error, this period is in conflict with another period"
+msgstr "Error, this period is in conflict with another period"
+
+#: rf-wpajax.php:461
+msgid "coupon"
+msgstr "coupon"
+
+#: rf-wpajax.php:461
+msgid "discount"
+msgstr "discount"
+
+#: rf-wpajax.php:461
+msgid "tax"
+msgstr "tax"
+
+#: rf-wpajax.php:764
+msgid "Qty"
+msgstr "Qty"
+
+#: rf-wpajax.php:764
+msgid "People"
+msgstr "People"
+
+#: rf-wpajax.php:764
+msgid "Ph."
+msgstr "Ph."
+
+#: rf-wpajax.php:779
+msgid "Mrs/Mr."
+msgstr "Mrs/Mr."
+
+#: rf-wpajax.php:823
+msgid "Booking confirmation"
+msgstr "Booking confirmation"
+
+#: rf-wpajax.php:830
+msgid "New booking"
+msgstr "New booking"
+
+#: rf-wpajax.php:832
+msgid "Booking has been saved"
+msgstr "Booking has been saved"
+
+#: rf.php:57
+msgid "Thank you for planning your arrival before"
+msgstr "Thank you for planning your arrival before"
+
+#: rf.php:59
+msgid "Thank you for planning your departure before"
+msgstr "Thank you for planning your departure before"
+
+#: rf.php:64
+msgid "Duration of the booking too long. Maximum duration"
+msgstr "Duration of the booking too long. Maximum duration"
+
+#: rf.php:65
+msgid "Booking is not possible from"
+msgstr "Booking is not possible from"
+
+#. Plugin Name of the plugin/theme
+msgid "Réservation Facile"
+msgstr "Réservation Facile"
+
+#. Plugin URI of the plugin/theme
+msgid "https://onliste.com"
+msgstr "https://onliste.com"
+
+#. Description of the plugin/theme
+msgid ""
+"EN/FR/... Manage your bookings with this plugin that easily adapts to "
+"hotels, restaurants, camping, gites, trips, events, shows ..."
+msgstr ""
+"EN/FR/... Manage your bookings with this plugin that easily adapts to "
+"hotels, restaurants, camping, gites, trips, events, shows ..."
+
+#. Author of the plugin/theme
+msgid "Onliste.com"
+msgstr "Onliste.com"
+
+#. Author URI of the plugin/theme
+msgid "https://profiles.wordpress.org/onliste"
+msgstr "https://profiles.wordpress.org/onliste"
+
+#~ msgid "Min. delay before booking (in hours)"
+#~ msgstr "Min. delay before booking (in hours)"
+
+#~ msgid ""
+#~ "For example, put \"2\" if you need 2hrs to clean the place before the "
+#~ "next tenants, or put \"48\" if you need 48hrs to organize the reception "
+#~ "of the new arrivals. Leave to zero if there is no delay between the "
+#~ "bookings."
+#~ msgstr ""
+#~ "For example, put \"2\" if you need 2hrs to clean the place before the "
+#~ "next tenants, or put \"48\" if you need 48hrs to organize the reception "
+#~ "of the new arrivals. Leave to zero if there is no delay between the "
+#~ "bookings."
+
+#~ msgid "Colors updated"
+#~ msgstr "Colors updated"
+
+#~ msgid "Hour"
+#~ msgstr "Hour"
+
+#~ msgid "Edit place"
+#~ msgstr "Edit place"
+
+#~ msgid "Edit"
+#~ msgstr "Edit"
+
+#~| msgid "List of all coupons"
+#~ msgid "List of bookings"
+#~ msgstr "List of bookings"
+
+#~ msgid "Arrival requested"
+#~ msgstr "Arrival requested"
+
+#~ msgid "Departure requested"
+#~ msgstr "Departure requested"
+
+#~ msgid "Hover over a date to see the number of free places"
+#~ msgstr "Hover over a date to see the number of free places"
+
+#~ msgid "Expected arrival between"
+#~ msgstr "Expected arrival between"
+
+#~ msgid "Departure requested between"
+#~ msgstr "Departure requested between"
+
+#~ msgid "Roll over a date to see the number of free places"
+#~ msgstr "Roll over a date to see the number of free places"
+
+#~ msgid "Arrival days"
+#~ msgstr "Arrival days"
+
+#~ msgid "Departure days"
+#~ msgstr "Departure days"
+
+#~ msgid "Arrival start time"
+#~ msgstr "Arrival start time"
+
+#~ msgid "Arrival end time"
+#~ msgstr "Arrival end time"
+
+#~ msgid "Departure start time"
+#~ msgstr "Departure start time"
+
+#~ msgid "Departure end time"
+#~ msgstr "Departure end time"
+
+#~ msgid ""
+#~ "For example, if you do not accept bookings on Sunday, uncheck \"Sunday\"."
+#~ msgstr ""
+#~ "For example, if you do not accept bookings on Sunday, uncheck \"Sunday\"."
+
+#~ msgid "Reference time for the start of the booking"
+#~ msgstr "Reference time for the start of the booking"
+
+#~ msgid "From what time can newcomers arrive?"
+#~ msgstr "From what time can newcomers arrive?"
+
+#~ msgid "From what time do you no longer accept arrivals?"
+#~ msgstr "From what time do you no longer accept arrivals?"
+
+#~ msgid "Reference time for the end of the booking"
+#~ msgstr "Reference time for the end of the booking"
+
+#~ msgid "From what time can tenants leave the premises?"
+#~ msgstr "From what time can tenants leave the premises?"
+
+#~ msgid "From what time do tenants have to leave?"
+#~ msgstr "From what time do tenants have to leave?"
+
+#~ msgid "Colors"
+#~ msgstr "Colors"
+
+#~ msgid "Background form"
+#~ msgstr "Background form"
+
+#~ msgid "Main texts"
+#~ msgstr "Main texts"
+
+#~ msgid "Titles"
+#~ msgstr "Titles"
+
+#~ msgid "Fields background"
+#~ msgstr "Fields background"
+
+#~ msgid "Fields text"
+#~ msgstr "Fields text"
+
+#~ msgid "Calendar header background"
+#~ msgstr "Calendar header background"
+
+#~ msgid "Calendar header text"
+#~ msgstr "Calendar header text"
+
+#~ msgid "Calendar level 1 background"
+#~ msgstr "Calendar level 1 background"
+
+#~ msgid "Calendar level 1 text"
+#~ msgstr "Calendar level 1 text"
+
+#~ msgid "Calendar level 2 background"
+#~ msgstr "Calendar level 2 background"
+
+#~ msgid "Calendar level 2 text"
+#~ msgstr "Calendar level 2 text"
+
+#~ msgid "Calendar level 3 background"
+#~ msgstr "Calendar level 3 background"
+
+#~ msgid "Calendar level 3 text"
+#~ msgstr "Calendar level 3 text"
+
+#~ msgid "Submit button background"
+#~ msgstr "Submit button background"
+
+#~ msgid "Submit button text"
+#~ msgstr "Submit button text"
+
+#~ msgid "Preview title background"
+#~ msgstr "Preview title background"
+
+#~ msgid "Preview title text"
+#~ msgstr "Preview title text"
+
+#~ msgid "Preview content background"
+#~ msgstr "Preview content background"
+
+#~ msgid "Preview content text"
+#~ msgstr "Preview content text"
+
+#~ msgid "Preview level 1 background"
+#~ msgstr "Preview level 1 background"
+
+#~ msgid "Preview level 1 text"
+#~ msgstr "Preview level 1 text"
+
+#~ msgid "Preview level 2 background"
+#~ msgstr "Preview level 2 background"
+
+#~ msgid "Preview level 2 text"
+#~ msgstr "Preview level 2 text"
+
+#~ msgid "Preview level 3 background"
+#~ msgstr "Preview level 3 background"
+
+#~ msgid "Preview level 3 text"
+#~ msgstr "Preview level 3 text"
+
+#~ msgid "Preview total background"
+#~ msgstr "Preview total background"
+
+#~ msgid "Preview total text"
+#~ msgstr "Preview total text"
+
+#~ msgid "Calendar days header background"
+#~ msgstr "Calendar days header background"
+
+#~ msgid "Calendar days header text"
+#~ msgstr "Calendar days header text"
+
+#~ msgid "Calendar content background"
+#~ msgstr "Calendar content background"
+
+#~ msgid "Calendar content text"
+#~ msgstr "Calendar content text"
+
+#~ msgid "Calendar empty cells background"
+#~ msgstr "Calendar empty cells background"
+
+#~ msgid "Calendar border"
+#~ msgstr "Calendar border"
+
+#~ msgid "Thank you for planning your arrival from"
+#~ msgstr "Thank you for planning your arrival from"
+
+#~ msgid "Thank you for planning your departure from"
+#~ msgstr "Thank you for planning your departure from"
+
+#~ msgid ""
+#~ "Arrival start time is the reference time for the start of the booking "
+#~ msgstr ""
+#~ "Arrival start time is the reference time for the start of the booking "
+
+#~ msgid "Arrival end time is the reference time for the start of the booking "
+#~ msgstr ""
+#~ "Arrival end time is the reference time for the start of the booking "
+
+#~ msgid ""
+#~ "Departure start time is the reference time for the end of the booking "
+#~ msgstr ""
+#~ "Departure start time is the reference time for the end of the booking "
+
+#~ msgid "Departure end time is the reference time for the end of the booking "
+#~ msgstr ""
+#~ "Departure end time is the reference time for the end of the booking "
+
+#~ msgid "Days available for arrival"
+#~ msgstr "Days available for arrival"
+
+#~ msgid "Days available for departure"
+#~ msgstr "Days available for departure"
+
+#~ msgid "Display: Days available"
+#~ msgstr "Display: Days available"
+
+#~ msgid "Display: Arrival start time"
+#~ msgstr "Display: Arrival start time"
+
+#~ msgid "Display: Arrival end time"
+#~ msgstr "Display: Arrival end time"
+
+#~ msgid "Display: Departure start time"
+#~ msgstr "Display: Departure start time"
+
+#~ msgid "Display: Departure end time"
+#~ msgstr "Display: Departure end time"
+
+#~ msgid "Display: Days available for arrival"
+#~ msgstr "Display: Days available for arrival"
+
+#~ msgid "Display: Days available for departure"
+#~ msgstr "Display: Days available for departure"
+
+#~ msgid "Expected arrival after"
+#~ msgstr "Expected arrival after"
+
+#~ msgid "Expected arrival before"
+#~ msgstr "Expected arrival before"
+
+#~ msgid "Departure required from"
+#~ msgstr "Departure required from"
+
+#~ msgid "Departure requested before"
+#~ msgstr "Departure requested before"
+
+#~ msgid "Avail."
+#~ msgstr "Avail."
+
+#~ msgid "Last."
+#~ msgstr "Last."
+
+#~ msgid "Booked"
+#~ msgstr "Booked"
+
+#~ msgid "Remarks"
+#~ msgstr "Remarks"
+
+#~ msgid "From what date is it possible to book?"
+#~ msgstr "From what date is it possible to book?"
+
+#~| msgid "Periodicity"
+#~ msgid "Periods list"
+#~ msgstr "Periods list"
+
+#~| msgid "Add space"
+#~ msgid "Id space"
+#~ msgstr "Id space"
+
+#~| msgid "Remarks"
+#~ msgid "Form: Remarks"
+#~ msgstr "Form: Remarks"
+
+#~ msgid "Persons"
+#~ msgstr "Persons"
+
+#~ msgid "Do not receive notification by email"
+#~ msgstr "Do not receive notification by email"
+
+#~ msgid "Don't forget to save changes"
+#~ msgstr "Don't forget to save changes"
+
+#~ msgid "Taken spaces"
+#~ msgstr "Taken spaces"
+
+#~ msgid "Save the booking"
+#~ msgstr "Save the booking"
+
+#~ msgid "Between"
+#~ msgstr "Between"
+
+#~ msgid "Code to enter to benefit from the option."
+#~ msgstr "Code to enter to benefit from the option."
+
+#~ msgid "Total payments"
+#~ msgstr "Total payments"
+
+#~ msgid "Enable PayPal payment"
+#~ msgstr "Enable PayPal payment"
+
+#~ msgid "Click \"Yes\" to enable PayPal payment for your customers"
+#~ msgstr "Click \"Yes\" to enable PayPal payment for your customers"
+
+#~ msgid "Account email"
+#~ msgstr "Account email"
+
+#~ msgid "Email of your PayPal account"
+#~ msgstr "Email of your PayPal account"
+
+#~ msgid "Custom PayPal Form"
+#~ msgstr "Custom PayPal Form"
+
+#~ msgid ""
+#~ "If you have your own PayPal form, copy/paste it here. You can use the "
+#~ "following tags to replace the default value: @email, @currency, "
+#~ "@itemName, @amount."
+#~ msgstr ""
+#~ "If you have your own PayPal form, copy/paste it here. You can use the "
+#~ "following tags to replace the default value: @email, @currency, "
+#~ "@itemName, @amount."
+
+#~ msgid "Validate and pay"
+#~ msgstr "Validate and pay"
+
+#~ msgid "Payments made"
+#~ msgstr "Payments made"
+
+#~ msgid "Add payment"
+#~ msgstr "Add payment"
+
+#~ msgid "Information (Title)"
+#~ msgstr "Information (Title)"
+
+#~ msgid "Book (Title)"
+#~ msgstr "Book (Title)"
+
+#~ msgid "Book (button)"
+#~ msgstr "Book (button)"
+
+#~ msgid "Change plugin language to"
+#~ msgstr "Change plugin language to"
+
+#~ msgid ""
+#~ "You can create your own translation files from the two templates "
+#~ "provided. Do not modify the existing files, you will lose your "
+#~ "modifications during updates. Simply create a file in \".txt\" format. "
+#~ "The first line of each translation must be kept as in the model, the "
+#~ "second line is free. You can create these files in the directory"
+#~ msgstr ""
+#~ "You can create your own translation files from the two templates "
+#~ "provided. Do not modify the existing files, you will lose your "
+#~ "modifications during updates. Simply create a file in \".txt\" format. "
+#~ "The first line of each translation must be kept as in the model, the "
+#~ "second line is free. You can create these files in the directory"

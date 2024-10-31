@@ -1,0 +1,545 @@
+#rf_mainDiv{
+	padding: 10px;
+	position: relative;
+}
+
+#rf_mainDiv #rf_form_front{
+	margin-top: 15px;
+}
+
+#rf_mainDiv td, #rf_mainDiv table, #rf_mainDiv th{
+	border-width: 0px;
+}
+#rf_mainDiv form{
+	-webkit-box-flex: 1; -webkit-flex-grow: 1; -ms-flex-positive: 1; flex-grow: 1;
+}
+
+#rf_mainDiv #rf_form_heure_fin,
+#rf_mainDiv #rf_form_heure_debut{
+	display: none;
+}
+
+#rf_mainDiv .rf_norotate_arrow_calendar{
+	-webkit-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	transform: rotate(0deg);
+	display: inline-block;
+	position: relative;
+	top: 1px;
+	cursor: pointer;
+}
+
+#rf_mainDiv .rf_rotate_arrow_calendar{
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+	display: inline-block;
+	position: relative;
+    top: -6px;
+	cursor: pointer;
+}
+
+#rf_mainDiv .rf_selectMonth{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+}
+
+#rf_mainDiv .rf_arrowSelectMonth{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	-webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center;
+}
+
+#rf_mainDiv .rf_calendarMonth{
+	text-align: center;
+	vertical-align: top;
+}
+
+#rf_mainDiv #rf_navBar img.emoji{
+	width: 26px!important;
+	height: 26px!important;
+}
+
+#rf_mainDiv #rf_navBar select,
+#rf_mainDiv #rf_navBar input{
+	height: auto;
+	border: 0px solid grey!important;
+	outline: none;
+	margin: 0;
+	padding: 0;
+	font-size: 1.2em;
+}
+#rf_mainDiv #rf_navBar input[type="button"]{
+	padding: 5px 20px;
+}
+
+#rf_mainDiv .rf_errorMsg{
+	color: red;
+}
+
+#rf_mainDiv .rf_required{
+	color: red;
+}
+
+#rf_mainDiv #rf_navBar select[name="month"]{
+	margin-right: 10px;
+	color: #7f7f92;
+}
+
+#rf_mainDiv #rf_navBar input[name="year"]{
+	width: auto;
+}
+
+#rf_mainDiv #rf_navBar .rf_masked{
+	display: none;
+}
+
+#rf_mainDiv .rf_calendrier th{
+	text-align: center;
+}
+
+#rf_mainDiv #rf_calendar, 
+#rf_mainDiv #rf_navBar{
+	max-width: 750px;
+	text-align: center;
+}
+#rf_mainDiv .rf_bookable{
+	cursor: pointer;
+}
+
+#rf_mainDiv .rf_inline{
+	display:inline-block;
+}
+#rf_mainDiv .rf_total{
+	padding: 5px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	background-color: #e0e0e0!important;
+}
+#rf_mainDiv .rf_total2{
+	padding: 5px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	background-color: #cbcbcb!important;
+}
+#rf_mainDiv .rf_total_reservation .rf_previewRow{
+	margin-bottom: 0px;
+	background-color: #c12a2a;
+	color: white;
+	font-weight: bold;
+}
+
+#rf_mainDiv .rf_payBookingBtn{
+	float: right;
+}
+
+#rf_mainDiv .rf_previewRow{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	-webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between;
+	background-color: #eee;
+	padding: 10px;
+	margin-bottom: 5px;
+}
+#rf_mainDiv .rf_previewBox{
+	border: 1px solid #eee;
+	margin-bottom: 20px;
+}
+#rf_mainDiv .rf_previewRow div:nth-child(2){
+	text-align: right;
+}
+#rf_mainDiv .rf_previewHead{
+	background-color: #c12a2a;
+	color: white;
+	padding: 5px;
+}
+#rf_mainDiv .rf_previewContent{
+	padding: 10px;
+	background-color: #f7f7f7;
+}
+#rf_mainDiv .rf_previewResume{
+	padding: 5px;
+	font-weight: bold;
+}
+
+#rf_mainDiv .rf_previewResume input{
+	text-align: right;
+}
+
+#rf_mainDiv .rf_previewResume input[type="time"]{
+	text-align: left;
+}
+
+#rf_mainDiv .rf_bookingPayment{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	-webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between;
+	-webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap;
+}
+
+#rf_mainDiv #rf_information_front input{
+	margin: 0;
+	padding: 0;
+}
+
+#rf_mainDiv #rf_form_front select,
+#rf_mainDiv #rf_form_front textarea,
+#rf_mainDiv #rf_form_front input{
+	max-width: 350px;
+	margin-bottom: 10px;
+}
+
+#rf_mainDiv #rf_form_front select[disabled]{
+	background-color: whitesmoke!important;
+}
+
+#rf_mainDiv #rf_information_front .rf_formRow,
+#rf_mainDiv #rf_form_front .rf_formRow{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+}
+
+#rf_mainDiv #rf_information_front .rf_formRow  > div:nth-child(2),
+#rf_mainDiv #rf_form_front .rf_formRow > div:nth-child(2){
+	width: 50%;
+}
+
+#rf_mainDiv #rf_information_front .rf_formRow > div:first-child,
+#rf_mainDiv #rf_form_front .rf_formRow > div:first-child{
+	font-weight: bold;
+	margin-right: 10px;
+	width: 50%;
+	max-width: 300px;
+}
+
+#rf_mainDiv .rf_previewBox input[disabled], 
+#rf_mainDiv #rf_information_front input[disabled]{
+	background-color: transparent!important;
+    border: none!important;
+    width: 100%!important;
+}
+
+#rf_mainDiv .rf_weekHeader{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	-webkit-justify-content: space-around; -ms-flex-pack: distribute; justify-content: space-around;
+}
+
+#rf_mainDiv .rf_w12{
+	width: 12%;
+}
+
+#rf_mainDiv .rf_calendarLabelDay{
+	font-size:10px;
+}
+
+#rf_mainDiv .rf_calendarDateDay{
+	font-size:20px;
+}
+
+#rf_mainDiv .rfCalendarContent{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	-webkit-justify-content: space-around; -ms-flex-pack: distribute; justify-content: space-around;
+	position:relative;
+}
+
+#rf_mainDiv .rf_calendarTimes{
+	font-size:10px;
+	position:relative;
+	top:-8.5px;
+}
+
+#rf_mainDiv .rf_calendarTimes:last-child{
+	height: 0px!important;
+}
+
+#rf_mainDiv .rf_calendarAllDay{
+	z-index:1;
+	position:relative;
+}
+
+#rf_mainDiv .rf_calendarFullZero{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	border-top:#f4f4f4 1px solid;
+	font-size: 12px;
+	color:#ffffff;
+	overflow:hidden;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+#rf_mainDiv .rf_calendarOnePeriod{
+	border-top:#f4f4f4 1px solid;
+	font-size: 12px;
+	color:#ffffff;
+	overflow:hidden;
+	text-align: center;
+	vertical-align: middle;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#rf_mainDiv .rf_calendarGrid{
+	position:absolute;
+	top:0;
+	left:12%;
+	width:88%;
+}
+
+#rf_mainDiv .rf_calendarBookingUnavailable{
+	font-size:14px;
+	color:red;
+}
+
+#rf_mainDiv .rf_calendarGridRow{
+	border-top:1px solid #f4f4f4;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#rf_mainDiv .rf_CalendarLegend{
+	font-size:12px;
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	color:white;
+	-webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center;
+	margin:10px;
+	-webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap;
+}
+
+#rf_mainDiv .rf_CalendarLegend div{
+	padding: 2px;
+	margin: 2px;
+}
+
+#rf_mainDiv .rf_calendarRow{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	-webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between;
+	padding: 10px 5px;
+	background-color: white;
+}
+
+#rf_mainDiv .rf_calendarClosed{background-color: #cccccc;}
+#rf_mainDiv .rf_calendarAllAvailable{background-color: #3b88c3;}
+#rf_mainDiv .rf_calendarAvailable{background-color: #e07423;}
+#rf_mainDiv .rf_calendarUnavailable{background-color: #f70000;}
+#rf_mainDiv .rf_calendarArrival{background-color: green;}
+#rf_mainDiv .rf_calendarDeparture{background-color: purple;}
+
+#rf_mainDiv .rf_calendarRow select,
+#rf_mainDiv .rf_calendarRow input{
+	background-color: #ececec!important;
+    border: none!important;
+	color: white;
+}
+
+#rf_mainDiv .rf_calendarRow .rf_calendarRow{
+	padding: 0;
+}
+
+#rf_mainDiv #rf_calendar{
+	margin-bottom: 20px;
+	position: relative;
+	background-color: white;
+	padding: 5px;
+}
+
+#rf_mainDiv #rf_calendar .rf_calendrier .rf_calendarRow{
+	padding: 0;
+}
+
+#rf_mainDiv #rf_calendar .rf_calendrier .rf_calendarRow > div{
+	width: 15%;
+}
+
+#rf_mainDiv .rf_calendarDaysPart2{
+    height: 50px;
+}
+
+#rf_mainDiv .rf_calendarToday{
+	font-weight: bold;
+	color: red;
+}
+
+#rf_mainDiv #rf_calendarLoading{
+	position: absolute;
+	z-index: 5;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.8);
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	-webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center;
+	-webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center;
+	display: none;
+}
+
+#rf_mainDiv .rf_loadingAnimation{
+	background: url("../img/refresh.png") no-repeat;
+	height: 40px;
+	width: 40px;
+	-webkit-filter: invert(100%);
+	filter: invert(100%);
+	-webkit-animation: rf_rotating 2s linear infinite;
+	-moz-animation: rf_rotating 2s linear infinite;
+	-ms-animation: rf_rotating 2s linear infinite;
+	-o-animation: rf_rotating 2s linear infinite;
+	animation: rf_rotating 2s linear infinite;
+}
+
+@-webkit-keyframes rf_rotating{
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rf_rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+#rf_mainDiv #rf_displayOptions{
+	margin-top: 20px;
+}
+
+#rf_mainDiv #rf_optionsBackup,
+#rf_mainDiv #rf_reductionBackup,
+#rf_mainDiv #rf_couponBackup{
+	display: none;
+}
+
+#rf_mainDiv .rf_flex{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	-webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between;
+}
+
+#rf_mainDiv .rf_spaceDescription{
+	margin-bottom: 20px;
+}
+
+#rf_mainDiv .rf_periodList > div {
+    display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+    -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center;
+    -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
+}
+
+#rf_mainDiv .rf_periodList{
+	border-bottom: 1px solid #dddddd;
+	border-top: 1px solid #dddddd;
+	margin-bottom: -1px;
+    padding: 5px;
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	-webkit-justify-content: space-around; -ms-flex-pack: distribute; justify-content: space-around;
+}
+
+#rf_mainDiv #rf_information_front .rf_periodList input[disabled]{
+	width: initial!important;
+}
+
+@media screen and (max-width: 1024px) {
+	#rf_mainDiv .rf_bookingPayment{
+		-webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center;
+		-webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
+	}
+	#rf_mainDiv form {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	#rf_mainDiv .rf_bookingPayment{
+		text-align: center;
+	}
+	#rf_mainDiv .rf_payBookingBtn{
+		float: none;
+	}
+	#rf_mainDiv #rf_navBar form {
+		margin-bottom: 0px;
+	}
+	#rf_mainDiv #rf_form_front tr, #rf_mainDiv #rf_information_front tr{
+		display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+		-webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
+	}
+	#rf_mainDiv #rf_form_front input, #rf_mainDiv input[type="submit"]{
+		width: 100%;
+	}
+	#rf_mainDiv #rf_information_front .rf_formRow,
+	#rf_mainDiv #rf_form_front .rf_formRow{
+		-webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
+	}
+	#rf_mainDiv #rf_information_front .rf_formRow div:nth-child(2),
+	#rf_mainDiv #rf_form_front .rf_formRow div:nth-child(2){
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	#rf_mainDiv #rf_information_front .rf_formRow div:first-child,
+	#rf_mainDiv #rf_form_front .rf_formRow div:first-child{
+		width: 100%;
+	}
+	#rf_mainDiv .rf_previewRow,
+	#rf_mainDiv .rf_flex{
+		-webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
+	}
+	#rf_mainDiv .rf_calendarDaysPart2{
+		display: none;
+	}
+	#rf_mainDiv .rf_previewResume input{
+		text-align: left;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	#rf_mainDiv .rf_calendrier td {
+		padding: 0;
+		border: none;
+	}
+	#rf_mainDiv .rf_calendrier th {
+		padding: 0;
+	}
+	#rf_mainDiv select{
+		width: 100%;
+		margin: 0;
+	}
+	#rf_mainDiv #rf_form_heure_debutp1,
+	#rf_mainDiv #rf_form_heure_debutp2,
+	#rf_mainDiv #rf_form_heure_finp1,
+	#rf_mainDiv #rf_form_heure_finp2{
+		width: initial;
+	}
+	#rf_mainDiv p.submit{
+		display: inline-block;
+		width: 100%;
+		margin: 0;
+	}
+	#rf_mainDiv input{
+		width: 100%;
+	}
+	#rf_mainDiv #submit{
+		max-width: none;
+	}
+	#rf_mainDiv .rf_box input[type="text"]{
+		width: 100%;
+	}
+	#rf_mainDiv form{
+		margin-bottom: 10px;
+	}
+	#rf_mainDiv #rf_navBar input[type="button"]{
+		max-width: 32px;
+		padding: 7px;
+	}
+}
+

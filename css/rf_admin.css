@@ -1,0 +1,1312 @@
+#adminmenu .wp-menu-image img{
+	padding: 5px 0 0;
+}
+#rf_content{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	-webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap;
+	-webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center;
+	padding-right: 20px;
+}
+
+#rf_content input[disabled]{
+	background-color: transparent;
+	border: 0px;
+	color: #444;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+#rf_content input[type="checkbox"]{
+	margin-top: 0px!important;
+}
+
+#rf_content #rf_labelShortcode{
+	color: #c75c5c;
+    font-weight: bold;
+    font-size: 15px;
+    display: block;
+	cursor: text;
+}
+
+#rf_content #rf_tabShortcodes .rf_column-primary{
+	width: 300px;
+}
+
+#rf_content .rf_shortcodeRedirectionBlock{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	-webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
+}
+
+#rf_content .rf_shortcodeRedirectionSelect{
+	min-width: 250px;
+}
+
+#rf_content .rf_shortcodeRedirection{
+	min-width: 100px;
+	display: inline-block;
+}
+
+#rf_content #rf_spanShortcode{
+	padding-right: 40px;
+    font-size: 0.9em;
+    font-weight: normal;
+    float: right;
+}
+
+#rf_content .rf_flex{
+	display: -webkit-box!important;display: -ms-flexbox!important;display: -webkit-flex!important;display: flex!important;
+}
+
+#rf_content #tabEmplacements, 
+#rf_content #rf_hiddenWPEditor{
+	display: none;
+}
+
+#rf_content #rf_parentWPEditor div:first-child{
+	padding: 0;
+}
+
+#rf_content #wp-description-editor-container #description_ifr{
+	min-height: 400px;
+}
+
+#rf_content img.emoji{
+	height: auto!important;
+	width: 26px!important;
+	height: 26px!important;
+	line-height: 26px!important;
+}
+
+#rf_content .rf_daysAvailable{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	-webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap;
+	-webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between;
+}
+
+#rf_content .rf_daysAvailable div:first-child{
+	padding: 0!important;
+}
+
+#rf_content #rf_mainPluginTitle{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+    -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between;
+    -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center;
+    -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap;
+	margin-bottom: 0;
+}
+
+#rf_content #rf_mainPluginTitle > span{
+	display: block;
+}
+
+#rf_content #rf_welcome{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	-webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between;
+	-webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap;
+}
+
+#rf_content #rf_welcome_en, #rf_content #rf_welcome_fr{
+	width: 100%;
+	min-width: 400px;
+}
+
+#rf_content #rf_welcome_en div, #rf_content #rf_welcome_fr div{
+	margin: 10px;
+	padding: 10px;
+	background-color: #f5f5f5;
+}
+
+#rf_content #rf_content1{
+	width: 1280px;
+}
+
+#rf_content #rf_content2{
+	width: 300px;
+	display: none;
+}
+
+#rf_content #rf_content2 div:first-child{
+	padding: 20px;
+}
+
+#rf_content h2{
+	margin-top: 10px;
+}
+
+#rf_content select {
+    position: relative;
+    top: -1px;
+}
+
+#rf_content input[type="text"] {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#rf_content input[type="number"] {
+    width: 80px;
+}
+
+#rf_content .rf_wrap{
+	max-width: 1400px;
+    margin: 0px auto;
+}
+
+#rf_content .submit{
+	display:inline-block;
+	margin-left:5px;
+	padding-bottom:0px;
+	margin-top:0px!important;
+	padding-top:0px!important;
+}
+
+.wp-core-ui #rf_content .button-primary:active{
+	vertical-align: initial;
+}
+
+#rf_content .rf_help_add_location{
+	background-color: #4ca556;
+	border-color: #4ca556 #4ca556 #4ca556;
+    -webkit-box-shadow: 0 1px 0 #4ca556;
+    box-shadow: 0 1px 0 #4ca556;
+	padding: 0 12px 2px;
+	color: #fff;
+}
+
+#rf_content .rf_help_edit_space_onglet{
+	background-color: #4ca556!important;
+}
+
+#rf_content .rf_help_edit_space_onglet a{
+	color: white!important;
+}
+
+#rf_content .rf_help_edit_space{
+	background-color: #4ca556;
+	padding: 5px;
+	-webkit-box-pack: end; -webkit-justify-content: flex-end; -ms-flex-pack: end; justify-content: flex-end;
+    width: 100%;
+}
+
+#rf_content .rf_addLocationSpace{
+    background-color: white;
+    padding: 15px 50px 10px 50px;
+}
+
+#rf_content .rf_addLocationSpace .rf_buttons{
+	-webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
+}
+
+#rf_content .rf_addLocationSpace .rf_buttons .button{
+	width: 100%;
+	margin-left: 0px;
+}
+
+#rf_content .rf_addLocationSpace .rf_buttons .submit{
+	margin-left: 0px;
+}
+
+#rf_content .rf_addLocationSpace .rf_buttons p,
+#rf_content .rf_addLocationSpace input[type="text"]{
+	width: 100%!important;
+}
+
+#rf_content .rf_adminNotice{
+	background-color: #4ca556;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+#rf_content .rf_adminNoticeError{
+	background-color: #cc4e3b;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+#rf_content .rf_adminNoticeWarning{
+	background-color: #ea9c00;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+#rf_content .rf_colorOption{
+	 display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	 -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap;
+}
+
+#rf_content .rf_colorOption div{
+	padding: 0!important;
+	width: 50%;
+	margin-bottom: 10px;
+}
+
+#rf_content .rf_btnClose{
+	float: right;
+	cursor: pointer;
+}
+
+#rf_content .rf_headBar .button-primary {
+	margin-right: 5px;
+	width: 33%;
+	display: block;
+}
+
+#rf_content .rf_headBar #rf_btnEditSpace.button-primary{
+	margin-right: 0;
+}
+
+#rf_content #rf_contentReservations .submit,
+#rf_content #rf_contentReservations input[type="submit"]{
+	width: 100%;
+	max-width: 200px;
+}
+
+#rf_content button{
+	font-weight: bold;
+}
+
+#rf_content .rf_widefat td p{
+	margin-bottom:0px;
+}
+
+#rf_content .rf_widefat td {
+	padding: 10px 0;
+}
+
+#rf_content .rf_delete .button{
+	background-color: red;
+	color: white;
+	-webkit-box-shadow: 0px 1px 0px 0px red;
+	box-shadow: 0px 1px 0px 0px red;
+	border-color: red;
+	position: relative;
+	min-height: 30px;
+}
+
+#rf_content .rf_buttons{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	width: 100%;
+}
+
+#rf_content .rf_buttons div{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+}
+
+#rf_content .rf_deleteAjax{
+	background-color: red;
+    cursor: pointer;
+    padding: 6px 12px;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    line-height: 31px;
+    -webkit-box-shadow: 0 1px 0 #ffa8a8;
+    box-shadow: 0 1px 0 #ffa8a8;
+    border: 1px solid #e00000;
+}
+
+#rf_content .rf_accordion{
+	background-color: #3b88c3;
+	color: #fff;
+	padding: 5px!important;
+	text-align: left;
+	border: none;
+	outline: none;
+	-webkit-transition: 0.4s;
+	-o-transition: 0.4s;
+	transition: 0.4s;
+}
+
+#rf_content .rf_accordion{
+	font-size: 16px;
+	width: 100%;
+	cursor: pointer;
+}
+
+#rf_content .rf_accordion span{
+	margin-right:5px;
+}
+
+#rf_content .rf_panel table{
+	width: 100%;
+}
+
+#rf_content .rf_rotate_arrow_price{
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+	display: inline-block;
+}
+
+#rf_content .rf_norotate_arrow_calendar{
+	-webkit-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	transform: rotate(0deg);
+	display: inline-block;
+	position: relative;
+	top: 1px;
+	cursor: pointer;
+}
+
+#rf_content .rf_rotate_arrow_calendar{
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+	display: inline-block;
+	position: relative;
+    top: -2px;
+	cursor: pointer;
+}
+
+#rf_content #rf_calendarLoading{
+	position: absolute;
+	z-index: 5;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.8);
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	-webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center;
+	-webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center;
+	display: none;
+}
+
+#rf_content .rf_loadingAnimation{
+	background: url("../img/refresh.png") no-repeat;
+	height: 40px!important;
+	width: 40px!important;
+	-webkit-filter: invert(100%);
+	filter: invert(100%);
+	-webkit-animation: rf_rotating 2s linear infinite;
+	-moz-animation: rf_rotating 2s linear infinite;
+	-ms-animation: rf_rotating 2s linear infinite;
+	-o-animation: rf_rotating 2s linear infinite;
+	animation: rf_rotating 2s linear infinite;
+}
+
+@-webkit-keyframes rf_rotating{
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rf_rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+#rf_content .rf_bloc{
+	display: inline-block;
+	margin-right: 20px;
+	vertical-align: top;
+}
+
+#rf_content .rf_headBar .submit,
+#rf_content .rf_headBar .submit #submit{
+	width: 100%;
+	margin-left: 0;
+}
+
+#rf_content .rf_headBar > div{
+	width: 33%;
+    margin-right: 5px;
+}
+
+#rf_content .rf_headBar{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex; 
+	background-color: #ffffff;
+	padding: 5px 0 10px 0;
+}
+
+#rf_content .rf_headBarEdit{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	-webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap;
+	-webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center;
+	-webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
+	margin-top: 5px;
+}
+
+#rf_content .rf_headBarEdit > div{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	margin-left: 160px;
+	-webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center;
+}
+
+#rf_content .rf_recentBookings .rf_headBarEdit > div{
+	margin-left: 0px;
+}
+
+#rf_content .rf_headBarEdit select{
+	min-width: 162px;
+}
+
+#rf_content .rf_headBarEdit input[type="text"]{
+	width: 162px;
+}
+
+#rf_content .rf_headBarEdit > div > form{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+    -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center;
+}
+
+#rf_content textarea{
+	width:100%;
+}
+
+#rf_content .rf_form{
+	display:inline-block;
+	margin-right:5px;
+} 
+
+#rf_content .rf_plugin_onglets li {
+	min-width: 14%;
+	text-align: center;
+	background-color: whitesmoke;	
+}
+
+#rf_content #rf_plugin_onglets_coupons2_li,
+#rf_content #rf_plugin_onglets_options2_li{
+	width: 50%;
+}
+	
+
+#rf_content .rf_plugin_onglets{
+	list-style-type: none;
+	margin: 0px 0 5px 0;
+	padding: 0;
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+}
+
+#rf_content .rf_plugin_onglets_mp{
+	margin-top: 5px;
+}
+
+
+#rf_content dd, 
+#rf_content li {
+    margin-bottom: 0;
+}
+
+#rf_content h2#rf_mainTitle {
+    padding: 7px 3px 7px 10px;
+    text-transform: uppercase;
+    margin: 0;
+	text-align: center;
+}
+
+#rf_content .rf_plugin_onglets li a{
+	display: inline-block;
+    color: #3b88c3;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    padding: 7px 0px;
+    text-decoration: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    width: 100%;
+}
+
+#rf_content .rf_plugin_onglets .rf_isactive, 
+#rf_content .rf_plugin_onglets li:hover,
+#rf_content .rf_plugin_onglets li a:hover{
+	background-color: #0085ba;
+	color: #FFFFFF!important;
+}
+
+#rf_content .rf_isactive a{
+	color: white!important;
+}
+
+#rf_content button.rf_accordion {
+	background-color: #FFFFFF;
+	color: #0085ba;
+	cursor: pointer;
+	padding: 8px;
+	width: 100%;
+	text-align: left;
+	border: none;
+	outline: none;
+	-webkit-transition: 0.4s;
+	-o-transition: 0.4s;
+	transition: 0.4s;
+	margin-top: 5px;
+	font-weight: bold;
+    font-size: 18px;
+    border-bottom: 5px solid #0085ba;
+}
+
+#rf_content #rf_plugin_onglets_coupons button.rf_accordion,
+#rf_content #rf_plugin_onglets_reductions button.rf_accordion, 
+#rf_content #rf_plugin_onglets_taxes button.rf_accordion, 
+#rf_content #rf_plugin_onglets_options button.rf_accordion,
+#rf_content #rf_plugin_onglets_options2 button.rf_accordion,
+#rf_content #rf_plugin_onglets_coupons2 button.rf_accordion {
+    border-top: 1px solid #e2e2e2;
+    background-color: #f5f5f5;
+    margin-top: 0px;
+    border-bottom: none;
+    color: #0085ba;
+}
+
+#rf_content div.rf_panel {
+	padding: 0 18px;
+	background-color: #f5f5f5;
+	max-height: 0;
+	overflow: hidden;
+	-webkit-transition: max-height 0.2s ease-out;
+	-o-transition: max-height 0.2s ease-out;
+	transition: max-height 0.2s ease-out;
+}
+
+#rf_content #rf_plugin_onglets_calendrier{
+	max-width: 100%;
+}
+
+#rf_content #rf_contentReservations table{
+	width: 100%;
+}
+
+#rf_content #rf_plugin_onglets_options2 h2, 
+#rf_content #rf_plugin_onglets_taxes2 h2, 
+#rf_content #rf_plugin_onglets_reductions2 h2, 
+#rf_content #rf_plugin_onglets_coupons2 h2, 
+#rf_content #rf_plugin_onglets_general3 h2, 
+#rf_content #rf_plugin_onglets_formulaire3 h2, 
+#rf_content #rf_plugin_onglets_messages3 h2, 
+#rf_content #rf_plugin_onglets_calendrier3 h2{
+	padding-top: 15px;
+}
+
+#rf_content #rf_plugin_onglets_principal, 
+#rf_content #rf_plugin_onglets_formulaire, 
+#rf_content #rf_plugin_onglets_options2, 
+#rf_content #rf_plugin_onglets_taxes2, 
+#rf_content #rf_plugin_onglets_reductions2, 
+#rf_content #rf_plugin_onglets_coupons2, 
+#rf_content #rf_plugin_onglets_general3, 
+#rf_content #rf_plugin_onglets_formulaire3, 
+#rf_content #rf_plugin_onglets_messages3, 
+#rf_content #rf_plugin_onglets_calendrier3, 
+#rf_content #rf_plugin_onglets_coupons, 
+#rf_content #rf_plugin_onglets_reductions, 
+#rf_content #rf_plugin_onglets_taxes, 
+#rf_content #rf_plugin_onglets_options, 
+#rf_content #rf_plugin_onglets_general, 
+#rf_content #rf_plugin_onglets_formulaire, 
+#rf_content #rf_plugin_onglets_messages, 
+#rf_content #rf_plugin_onglets_calendrier{
+	margin-bottom: 20px;
+	-webkit-justify-content: space-around; -ms-flex-pack: distribute; justify-content: space-around;
+	-webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap;
+	background-color: #ffffff;
+    padding: 10px 0;
+}
+
+#rf_content #rf_plugin_onglets_general3 div:first-child{
+	width: 100%;
+}
+
+#rf_content #rf_plugin_onglets_principal, 
+#rf_content #rf_plugin_onglets_formulaire{
+	padding: 0;
+}
+
+#rf_content #rf_plugin_onglets_options2, 
+#rf_content #rf_plugin_onglets_taxes2, 
+#rf_content #rf_plugin_onglets_reductions2, 
+#rf_content #rf_plugin_onglets_coupons2{
+	-webkit-box-pack: start; -webkit-justify-content: flex-start; -ms-flex-pack: start; justify-content: flex-start;
+}
+
+#rf_content table.rf_widefat{
+	background-color: #f5f5f5;
+	width: 100%;
+	border-spacing: 0;
+    border-collapse: collapse;
+}
+
+#rf_content .rf_widefat th{
+    border-bottom: 5px solid #0085ba;
+    color: #0085ba!important;
+    background-color: white;
+	padding: 5px;
+	text-align: left;
+}
+
+#rf_content #rf_OT{
+	display: none;
+}
+
+#rf_content .rf_weekHeader{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	-webkit-justify-content: space-around; -ms-flex-pack: distribute; justify-content: space-around;
+}
+
+#rf_content .rf_w12{
+	width: 12%;
+}
+
+#rf_content .rf_calendarLabelDay{
+	font-size:10px;
+}
+
+#rf_content .rf_calendarDateDay{
+	font-size:20px;
+}
+
+#rf_content .rfCalendarContent{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	-webkit-justify-content: space-around; -ms-flex-pack: distribute; justify-content: space-around;
+	position:relative;
+}
+
+#rf_content .rf_calendarTimes{
+	font-size:10px;
+	position:relative;
+	top:-8.5px;
+}
+
+#rf_content .rf_calendarTimes:last-child{
+	height: 0px!important;
+}
+
+#rf_content .rf_calendarAllDay{
+	z-index:1;
+	position:relative;
+}
+
+#rf_content .rf_calendarFullZero{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	border-top:#f4f4f4 1px solid;
+	font-size: 12px;
+	color:#ffffff;
+	overflow:hidden;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#rf_content .rf_calendarOnePeriod{
+	border-top:#f4f4f4 1px solid;
+	font-size: 12px;
+	color:#ffffff;
+	overflow:hidden;
+	text-align: center;
+	vertical-align: middle;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#rf_content .rf_calendarGrid{
+	position:absolute;
+	top:0;
+	left:12%;
+	width:88%;
+}
+
+#rf_content .rf_calendarBookingUnavailable{
+	font-size:14px;
+	color:red;
+}
+
+#rf_content .rf_calendarGridRow{
+	border-top:1px solid #f4f4f4;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#rf_content .rf_CalendarLegend{
+	font-size:12px;
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	color:white;
+	-webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center;
+	margin:10px;
+	-webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap;
+}
+
+#rf_content .rf_CalendarLegend div{
+	padding: 2px;
+	margin: 2px;
+}
+
+#rf_content .rf_calendarClosed{background-color: #cccccc;}
+#rf_content .rf_calendarAllAvailable{background-color: #3b88c3;}
+#rf_content .rf_calendarAvailable{background-color: #e07423;}
+#rf_content .rf_calendarUnavailable{background-color: #f70000;}
+#rf_content .rf_calendarArrival{background-color: green;}
+#rf_content .rf_calendarDeparture{background-color: purple;}
+
+
+#rf_content .rf_general_panel div:first-child{
+	padding: 0 1px;
+}
+
+#rf_content .rf_pad10{
+	padding: 10px 1px 0 1px;
+}
+
+#rf_content .rf_calendrier{
+	width: 100%;
+}
+
+#rf_content .rf_calendrier td{
+	padding: 15px 0!important;
+	font-weight: bold;
+	border: none;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+#rf_content .rf_calendrier tr th{
+	padding: 5px;
+}
+
+#rf_content .rf_calendrier tr:first-child th{
+	padding: 8px;
+	font-size: 18px;
+}
+
+#rf_content .rf_calendrier td:hover{
+	background-color: #cccccc;
+}
+
+#rf_content .rf_calendrier_heading{
+	text-align: center;
+	background-color: #0085ba;
+    color: white;
+}
+
+#rf_content .rf_calendrier tr{
+	border: none;
+}
+
+#rf_content #rf_calendar, 
+#rf_content #rf_navBar{
+	margin: auto;
+	background: #f5f5f5;
+	width: 100%;
+	max-width: 100%;
+	text-align: center;
+	position: relative;
+	padding: 5px;
+}
+
+#rf_content #rf_navBar{
+	background: #77b3d4;
+}
+
+#rf_content #rf_calendar td{
+	padding: 0;
+}
+
+#rf_content #rf_calendar table{
+	width: 100%;
+	border-spacing: 0;
+    border-collapse: collapse;
+}
+
+#rf_content .rf_calendarYear{
+	display: none!important;
+}
+
+#rf_content .rf_fields{
+	display:inline-block;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	min-width: 200px;
+	width: initial!important;
+}
+
+#rf_content .rf_fieldsMsg{
+	display:inline-block;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	max-width: 550px;
+	width: 100%;
+}
+
+#rf_content .rf_inputFieldsMsg{
+	max-width: 550px;
+	width: 100%;
+}
+
+#rf_content .rf_boxes{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+    width: 100%;
+    -webkit-justify-content: space-around; -ms-flex-pack: distribute; justify-content: space-around;
+    padding-right: 12px;
+}
+
+#rf_content .rf_box{
+	padding: 10px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 20px;
+	margin-top: 5px;
+}
+
+#rf_content .rf_box select{
+	min-width: 162px;
+	margin-right: 0px;
+}
+
+#rf_content .rf_box input[type="text"]{
+	width: 162px;
+}
+
+#rf_content .rf_booking_column{
+	display: inline-block;
+	width: 25%;
+	vertical-align: top;
+}
+
+#rf_content .rf_booking_column #rf_idSpace,
+#rf_content .rf_booking_column [name="nb_de_place"]
+{
+	background-color: #0085ba;
+    color: white;
+}
+
+#rf_content .rf_plugin_onglets_principal{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+}
+
+#rf_content .rf_general_panel{
+	display: inline-block;
+	width: 49%;
+	min-width: 350px;
+	vertical-align: top;
+}
+
+#rf_content #rf_plugin_onglets_optionsMenu .rf_general_panel{
+	width: 100%;
+}
+
+#rf_content h3{
+	margin-bottom: 0px;
+	margin-top: 5px;
+	padding: 7px 10px;
+    color: #0085ba;
+    border-bottom: 5px solid #0085ba;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#rf_content .rf_masked{
+	display: none;
+}
+
+#rf_content .rf_pricemodif_column{
+	display: inline-block;
+	width: 49%;
+	vertical-align: top;
+}
+
+#rf_content #rf_plugin_onglets_options2 h2, 
+#rf_content #rf_plugin_onglets_taxes2 h2, 
+#rf_content #rf_plugin_onglets_reductions2 h2,
+#rf_content #rf_plugin_onglets_coupons2 h2, 
+#rf_content #rf_plugin_onglets_options h2{
+	margin-bottom: 0px;
+}
+
+#rf_content .rf_errorMsg{
+	color: red;
+}
+
+#rf_content #rf_navBar input[type="button"] {
+    background: #0085ba;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+}
+
+#rf_content #rf_navBar table {
+    margin: auto;
+}
+
+#rf_content .rf_general_panel td{
+	max-width: 340px;
+	padding: 0px;
+}
+
+#rf_content input[type="date"][disabled]{
+	padding: 0;
+	margin: 0;
+}
+
+#rf_content #rf_contentReservations input[type="date"][disabled]{
+	text-align: center;
+}
+
+#rf_content .rf_column-primary{
+	text-align: center;
+    padding-right: 10px!important;
+	padding-top: 6px;
+}
+
+#rf_contentReservations input[type="date"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    display: none;
+}
+
+#rf_contentReservations input[type="date"]::-webkit-calendar-picker-indicator {
+    -webkit-appearance: none;
+    display: none;
+}
+
+#rf_content #rf_addSpaceForm,
+#rf_content #rf_editSpaceForm{
+	display: none;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.7);
+	z-index: 999999999;
+    -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center;
+}
+
+#rf_content #rf_addSpaceForm form,
+#rf_content #rf_editSpaceForm form{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	-webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
+}
+
+#rf_content #rf_addSpaceForm h2,
+#rf_content #rf_addSpaceForm input[type="text"]
+#rf_content #rf_editSpaceForm h2,
+#rf_content #rf_editSpaceForm input[type="text"]{
+	margin-bottom: 8px;
+	width: 100%;
+}
+
+#rf_content .rf_selectOverflow{
+	overflow: auto;
+	height: auto;
+	margin-right: 0;
+	margin-bottom: 5px;
+}
+
+#rf_content .rf_periodList,
+#rf_content .rf_periodListClosure{
+	background-color: #dddddd;
+    padding: 5px;
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	-webkit-justify-content: space-around; -ms-flex-pack: distribute; justify-content: space-around;
+}
+
+#rf_content .rf_periodListClosure > div,
+#rf_content .rf_periodList > div{
+	display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+	-webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center;
+	-webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
+}
+
+#rf_content .rf_periodListClosure,
+#rf_content .rf_periodList{
+	margin-bottom: 1px;
+}
+
+#rf_content .rf_priceDay{
+	min-width: 130px;
+    display: inline-block;
+}
+
+@media screen and (max-width: 1800px) {
+	#rf_content .rf_widefat td:nth-child(11),
+	#rf_content .rf_widefat td:nth-child(10){
+		display: none;
+	}
+	#rf_content .rf_widefat th:nth-child(11),
+	#rf_content .rf_widefat th:nth-child(10){
+		display: none;
+	}
+	
+	#rf_content #rf_content1{
+		width: 920px;
+		width: 100%;
+	}
+}
+@media screen and (max-width: 1440px) {
+	#rf_content .rf_widefat td:nth-child(9),
+	#rf_content .rf_widefat td:nth-child(8){
+		display: none;
+	}
+	#rf_content .rf_widefat th:nth-child(9),
+	#rf_content .rf_widefat th:nth-child(8){
+		display: none;
+	}
+	#rf_content #rf_content1{
+		width: 100%;
+	}
+	#rf_content #rf_content2{
+		width: 100%;
+		text-align: center;
+	}
+	#rf_content2 br {
+		display: none;
+	}
+	#rf_content2 a {
+		display: inline-block;
+		margin-top: 20px;
+	}
+	#rf_content .rf_colorOption div{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 1024px) {
+	#rf_content .rf_booking_column{
+		width: 50%;
+	}
+	#rf_content .rf_widefat td:nth-child(7), 
+	#rf_content .rf_widefat td:nth-child(6), 
+	#rf_content .rf_widefat td:nth-child(5){
+		display: none;
+	}
+	#rf_content .rf_widefat th:nth-child(7), 
+	#rf_content .rf_widefat th:nth-child(6), 
+	#rf_content .rf_widefat th:nth-child(5){
+		display: none;
+	}
+	#rf_content .rf_shortcodeRedirectionBlock{
+		-webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
+	}
+	#rf_content .rf_headBarEdit > div{
+		margin-left: 0px;
+	}
+}
+@media screen and (max-width: 782px) {
+	#rf_content #rf_plugin_onglets_coupons2_li, #rf_content #rf_plugin_onglets_options2_li{
+		width: 100%;
+	}
+	#rf_content .rf_booking_column,
+	#rf_content .rf_booking_column input,
+	#rf_content .rf_booking_column select{
+		width: 100%;
+	}
+	#rf_content .rf_bloc{
+		width: 100%;
+	}
+	#rf_content .rf_bloc input{
+		width: -webkit-calc(100% - 40px);
+		width: calc(100% - 40px);
+		margin-bottom: 10px;
+	}
+	
+	#rf_content .rf_widefat td:nth-child(4){
+		display: none;
+	}
+ 
+	#rf_content .rf_widefat th:nth-child(4){
+		display: none;
+	}
+	#rf_content .rf_plugin_onglets{
+		-webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column
+		-webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap;
+	}
+	#rf_content .rf_plugin_onglets li{
+		width: 100%;
+		margin-bottom: 1px;
+	}
+	#rf_content .rf_plugin_onglets li a{
+		padding: 7px 0px;
+	}
+	#rf_content .rf_box{
+		display: block;
+		margin: auto;
+		text-align: center;
+	}
+	#rf_content .rf_pricemodif_column{
+		width: 100%;
+	}
+	#rf_content .rf_rotate_arrow_price{
+		-webkit-transform: rotate(270deg);
+		-ms-transform: rotate(270deg);
+		transform: rotate(270deg);
+	}
+	#rf_content .rf_no_rotate_arrow_price{
+		-webkit-transform: rotate(90deg);
+		-ms-transform: rotate(90deg);
+		transform: rotate(90deg);
+		display: inline-block;
+	}
+	#rf_content .rf_box{
+		display: none;
+	}
+	#rf_content .rf_box:last-child{
+		display: block;
+	}
+	#rf_content .rf_general_panel{
+		width: 100%;
+		min-width: unset;
+	}	
+	
+	#rf_content .rf_addLocationSpace input, 
+	#rf_content .rf_addLocationSpace select, 
+	#rf_content .rf_addLocationSpace form, 
+	#rf_content .rf_addLocationSpace textarea{
+		width: 100%!important;
+	}
+	#rf_content input[type="radio"]{
+		width: 16px!important;
+		height: 16px!important;
+	}	
+	#rf_content .rf_addLocationSpace #submit{
+		max-width: none;
+	}
+	#rf_content .rf_addLocationSpace p.submit{
+		display: inline-block;
+		width: 100%;
+		margin: 0;
+	}
+	
+	#rf_content .rf_headBarEdit > div > form{
+		-webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
+	}
+	#rf_content .rf_headBarEdit input, 
+	#rf_content .rf_headBarEdit select, 
+	#rf_content .rf_headBarEdit form, 
+	#rf_content .rf_headBarEdit textarea{
+		width: 100%!important;
+	}
+	#rf_content .rf_headBar input, 
+	#rf_content .rf_headBar select, 
+	#rf_content .rf_headBar form, 
+	#rf_content .rf_headBar textarea{
+		width: 100%!important;
+	}
+	#rf_content .rf_headBarEdit #submit,
+	#rf_content .rf_headBar #submit{
+		max-width: none;
+	}
+	#rf_content .rf_headBarEdit p.submit,
+	#rf_content .rf_headBar p.submit{
+		display: inline-block;
+		width: 100%;
+		margin: 0;
+	}
+	
+	#rf_content .rf_addLocationSpace{
+		margin-bottom: 20px;
+	}
+	
+	#rf_content .rf_headBarEdit div,
+	#rf_content .rf_headBar div{
+		width: 100%;
+		display: block;
+	}
+	
+	#rf_content .rf_headBar {
+		-webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
+	}
+	
+	#rf_content #rf_mainPluginTitle{
+		display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+		-webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
+		-webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between;
+		-webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center;
+		-webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap;
+		margin-bottom: 10px;
+	}
+	#rf_content .rf_addLocationSpace{
+		width: initial!important;
+	}
+	#rf_content .rf_buttons div{
+		-webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
+		width: 100%;
+	}
+}
+@media screen and (max-width: 350px) {
+	#rf_content .rf_widefat td:nth-child(3){
+		display: none;
+	}
+	#rf_content .rf_widefat th:nth-child(3){
+		display: none;
+	}
+	#rf_content select{
+		width: 100%;
+		margin: 0;
+	}
+	#rf_content p.submit{
+		display: inline-block;
+		width: 100%;
+		margin: 0;
+	}
+	#rf_content input, 
+	#rf_content select, 
+	#rf_content textarea{
+		width: 100%!important;
+	}
+	#rf_content input[type="checkbox"]{
+		width: 25px!important;
+	}
+	#rf_content #submit{
+		max-width: none;
+	}
+	#rf_content .rf_box input[type="text"]{
+		width: 100%;
+	}
+	#rf_content form{
+		margin-bottom: 0px;
+	}
+	
+	#rf_content .rf_box{
+		padding: 0px;
+		margin-right: 12px;
+	}
+	#rf_content .rf_calendrier td {
+		padding: 0;
+	}
+	#rf_content .rf_box select,
+	#rf_content .rf_box input[type="text"]{
+		width: 49%;
+		min-width: unset;
+	}
+	#rf_content .rf_box .submit{
+		width: 40%;
+		position: relative;
+		top: 2px;
+		margin-left: 5px;
+	}
+	#rf_content .rf_box form + form .submit{
+		top: -2px;
+	}
+	#rf_content .rf_shortcodeRedirectionSelect {
+		min-width: 100%;
+	}
+	#rf_content #rf_mainPluginTitle img{
+		width: 100%;
+	}
+	#rf_content .rf_daysAvailable{
+		-webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
+	}
+}
